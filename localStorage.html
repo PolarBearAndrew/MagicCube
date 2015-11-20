@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <title>Document</title>
+</head>
+
+<body>
+  <p id="hisValue">歷史值為 0 </p>
+  <p id="jobValue">任務值為 0 </p>
+
+  <button type="button" onclick="hisValueAdd()">歷史+1</button>
+  <button type="button" onclick="hisValueSub()">歷史-1</button>
+  <br>
+  <button type="button" onclick="jobValueAdd()">任務+1</button>
+  <button type="button" onclick="jobValueSub()">任務-1</button>
+
+
+  <input type="date">
+
+  <script>
+
+    setHisValue(); // init
+
+    function setHisValue(){
+      return document.getElementById("hisValue").innerHTML = "歷史值為 " + sessionStorage.hisValue || 0;
+    }
+
+    function hisValueAdd(){
+      sessionStorage.hisValue = Number( sessionStorage.hisValue || 0 ) + 1;
+      return setHisValue();
+    }
+
+    function hisValueSub(){
+      sessionStorage.hisValue = Number( sessionStorage.hisValue || 0 ) - 1;
+      return setHisValue();
+    }
+
+    function setJobvalue(){
+      return document.getElementById("jobValue").innerHTML = "任務值為 " + localStorage.jobValue;
+    }
+
+    function jobValueAdd(){
+      localStorage.jobValue = Number( localStorage.jobValue || 0 ) + 1;
+      return setJobvalue();
+    }
+
+    function jobValueSub(){
+      localStorage.jobValue = Number( localStorage.jobValue || 0 ) - 1;
+      return setJobvalue();
+    }
+
+  </script>
+
+</body>
+</html>

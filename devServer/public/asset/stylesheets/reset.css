@@ -1,0 +1,20 @@
+/* line 3, ../sass/reset.sass */
+body {
+  padding: 60px;
+  background-color: #d7d7d7;
+}
+
+#myId{
+
+
+}
+
+.myClass{
+
+}
+
+
+
+h1#main.title {
+  color : red
+}

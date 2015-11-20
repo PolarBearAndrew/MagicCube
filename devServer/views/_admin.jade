@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title Dev Server
+
+  link(rel='stylesheet', type='text/css', href='/semantic-ui/semantic.min.css')
+  link(rel='stylesheet', type='text/css', href='/asset/stylesheets/admin.css')
+
+  //- link(rel='stylesheet', href='path/to/font-awesome/css/font-awesome.min.css')
+
+
+body
+  .ui.grid
+    .ui.inverted.segment
+      h2.ui.header
+        //- img(src='/images/icons/plugin.png')
+        i.paw.icon
+        .content
+          | Dev Server
+          .sub.header(style="color:white") static website developer server
+      #main
+        //- h3.ui.header(style="color:white;") by Andrew Chen
+        br
+        br
+
+        button#build.ui.button.inverted.green
+          i.terminal.icon
+          | Build All
+        br
+        #loader.ui.inverted.segment.hide
+          .ui.active.inverted.loader
+
+        #result
+          br
+
+          //- .ui.inverted.segment.list-wrapper
+          //-   .ui.list.inverted.divided
+          //-     .item
+          //-       i.html5.icon.ui.orange
+          //-       .content
+          //-         a.header(href="@url", target="_blank") @title
+          //-         .description Build Success
+
+script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+script(src='/semantic-ui/semantic.min.js')
+
+//- dev server script
+script(src='/asset/javascripts/_admin.js')
