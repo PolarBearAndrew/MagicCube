@@ -1,0 +1,88 @@
+/* @import 'compass/reset' */
+/* line 15, ../sass/cube.sass */
+body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: center;
+  flex-direction: center;
+  background-color: #333;
+  padding-top: 300px;
+}
+
+/* line 22, ../sass/cube.sass */
+.container {
+  -moz-perspective: relative;
+  -webkit-perspective: relative;
+  perspective: relative;
+  perspective: 1000px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+/* line 29, ../sass/cube.sass */
+.cube {
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg) rotateX(0deg) translateZ(-25px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*border: 1px solid white; */
+}
+/* line 36, ../sass/cube.sass */
+.cube figure {
+  display: block;
+  position: absolute;
+  border: 4px solid black;
+  border-radius: 2px;
+  width: 46px;
+  height: 46px;
+  margin: 0px;
+}
+/* line 44, ../sass/cube.sass */
+.cube figure.front {
+  transform: rotateX(0deg) rotateY(0deg) translateZ(25px);
+  background-color: red;
+}
+/* line 47, ../sass/cube.sass */
+.cube figure.right {
+  transform: rotateX(0deg) rotateY(90deg) translateZ(25px);
+  background-color: blue;
+}
+/* line 50, ../sass/cube.sass */
+.cube figure.left {
+  transform: rotateX(0deg) rotateY(-90deg) translateZ(25px);
+  background-color: white;
+}
+/* line 53, ../sass/cube.sass */
+.cube figure.back {
+  transform: rotateX(180deg) rotateY(0deg) translateZ(25px);
+  background-color: yellow;
+}
+/* line 56, ../sass/cube.sass */
+.cube figure.top {
+  transform: rotateX(90deg) rotateY(0deg) translateZ(25px);
+  background-color: green;
+}
+/* line 59, ../sass/cube.sass */
+.cube figure.bottom {
+  transform: rotateX(-90deg) rotateY(0deg) translateZ(25px);
+  background-color: orange;
+}
+
+/* line 63, ../sass/cube.sass */
+.animate {
+  animation: rolling 6s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rolling {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title MagicCube
+  link(rel="stylesheet", href="./asset/stylesheets/cube.css")
+  script(src="./asset/javascripts/jquery-2.1.3.min.js")
+  script(src="http://louisremi.github.io/jquery.transform.js/jquery.transform2d.js")
+  script(src="./asset/javascripts/cube.js")
+body
+  section.container
+    //- - for( var x = 1; x <= 3; x++ )
+      - for( var y = 1; y <= 3; y++ )
+        - for( var z = 1; z <= 3; z++ )
+          - var figureIndex = 'x' + x + ' y' + y + ' z' + z;
+    .cube.animate
+      figure(class=figureIndex).front
+      figure(class=figureIndex).back
+      figure(class=figureIndex).right
+      figure(class=figureIndex).left
+      figure(class=figureIndex).top
+      figure(class=figureIndex).bottom
+    //- .cube.autoRolling
