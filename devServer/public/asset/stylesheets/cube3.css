@@ -1,0 +1,93 @@
+/* @import 'compass/reset' */
+/* line 11, ../sass/cube3.sass */
+body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: center;
+  flex-direction: center;
+  background-color: #333;
+  padding-top: 200px;
+}
+
+/* line 18, ../sass/cube3.sass */
+.container {
+  -moz-perspective: relative;
+  -webkit-perspective: relative;
+  perspective: relative;
+  perspective: 1000px;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+/* line 25, ../sass/cube3.sass */
+.cube {
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg) rotateX(0deg) translateZ(-100px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*border: 1px solid white; */
+}
+/* line 32, ../sass/cube3.sass */
+.cube figure {
+  /* box */
+  display: block;
+  position: absolute;
+  border: 5px solid white;
+  width: 196px;
+  height: 196px;
+  /* position */
+  margin: 0px;
+  /* font */
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 72px;
+  color: white;
+}
+/* line 46, ../sass/cube3.sass */
+.cube .front {
+  transform: rotateY(0deg) translateZ(100px);
+}
+/* line 48, ../sass/cube3.sass */
+.cube .right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+/* line 50, ../sass/cube3.sass */
+.cube .left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+/* line 52, ../sass/cube3.sass */
+.cube .back {
+  transform: rotateX(180deg) translateZ(100px);
+}
+/* line 54, ../sass/cube3.sass */
+.cube .top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+/* line 56, ../sass/cube3.sass */
+.cube .bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+/* line 59, ../sass/cube3.sass */
+.animate {
+  animation: rolling 6s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rolling {
+  from {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  to {
+    transform: rotateY(360deg) rotateX(360deg);
+  }
+}

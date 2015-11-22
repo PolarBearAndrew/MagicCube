@@ -1,13 +1,12 @@
 // $(document).ready(function(){
-//   setTimeout(todo, 200);
 //
-//   function todo(){
-//     var arr = $('.z3');
-//     for( var i = 0; i < arr.length; i++ ){
-//       elem = $(arr[i]);
-//       $(elem).animate({
-//         transform: '+=rotate(90deg)'
-//       });
-//     } // for end
-//   } // todo end
-// }); // doc ready end
+//   $('html, body').on('click', 'button', test);
+//
+//   function test(){
+//     $('#x1y2z3').animate({
+//       transform: 'rotate(-90deg)'
+//     });
+//     return false;
+//   } // test end
+// });
+// // doc ready end

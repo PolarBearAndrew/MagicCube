@@ -1,6 +1,6 @@
 /* @import 'compass/reset' */
 @import 'compass/css3'
-@import 'compass/css3/transform'
+// @import 'compass/css3/transform'
 
 $box-size: 50px
 
@@ -12,27 +12,54 @@ $box-size: 50px
 @mixin cubeFigure($rX, $rY, $mZ)
   transform: rotateX($rX+deg) rotateY($rY+deg) translateZ($mZ+px)
 
+@mixin locateCubeZ($mX, $mY)
+  &.z1
+    transform: translateX($mX+px) translateY($mY+px) translateZ(-50px)
+  &.z2
+    transform: translateX($mX+px) translateY($mY+px) translateZ(0px)
+  &.z3
+    transform: translateX($mX+px) translateY($mY+px) translateZ(50px)
+
+@mixin locateCubeY($mX)
+  &.y1
+    +locateCubeZ($mX, -50)
+  &.y2
+    +locateCubeZ($mX, 0)
+  &.y3
+    +locateCubeZ($mX, 50)
+
+@mixin locateCube
+  &.x1
+    +locateCubeY(-50)
+  &.x2
+    +locateCubeY(0)
+  &.x3
+    +locateCubeY(50)
+
 body
   @include display-flex
   @include flex-direction(center)
   background-color: #333
   padding-top: 300px
 
-
 .container
+  position: absolute
+  left: 50%
   @include perspective( relative )
   perspective: 1000px
-  width: $box-size
-  height: $box-size
-  margin: 0 auto
+  width: $box-size * 3
+  height: $box-size * 3
+  margin-left: -$box-size / 2
+  // opacity: 0
+  // &#x1y2z3
+  //   opacity: 1
 
 .cube
   @include transform-style(preserve-3d)
-  transform: rotateY(0deg) rotateX(0deg) translateZ(-25px)
   position: absolute
   width: 100%
   height: 100%
-  /*border: 1px solid white;*/
+  border: 1px solid white
   figure
     display: block
     position: absolute
@@ -58,16 +85,14 @@ body
       background-color: green
     &.bottom
       +cubeFigure(-90, 0, 25)
-      background-color: orange
+      background-color: rgb(235, 159, 12)
 
 .animate
   animation: rolling 6s infinite
   animation-timing-function: linear
 
-
-
 @keyframes rolling
   from
-    transform: rotateY(0deg)
+    transform: rotateX(0deg)
   to
-    transform: rotateY(360deg)
+    transform: rotateX(360deg)
