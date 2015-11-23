@@ -1,0 +1,162 @@
+doctype html
+html
+  head
+    title HTML5 Rukiks's tutorial Step(I)
+    
+    link(rel="stylesheet", href="./asset/stylesheets/myCube.css")
+    
+  body
+    section#rubik
+      #cube-container
+        #cube-viewport
+          #cube(style='-webkit-transform: rotateX(0deg) rotateY(130deg)')
+            // UP FACE
+            // LEFT COLUMN (L)
+            .utl.cubie
+              .content U1
+            .ucl.cubie
+              .content U2
+            .ubl.cubie
+              .content U3
+            // CENTER COLUMN (C)
+            .utc.cubie
+              .content U4
+            .ucc.cubie
+              .content U5
+            .ubc.cubie
+              .content U6
+            // RIGHT COLUMN (R)
+            .utr.cubie
+              .content U7
+            .ucr.cubie
+              .content U8
+            .ubr.cubie
+              .content U9
+            // END UP FACE
+            // FRONT FACE
+            // LEFT COLUMN (L)
+            .ftl.cubie
+              .content F1
+            .fcl.cubie
+              .content F2
+            .fbl.cubie
+              .content F3
+            // CENTER COLUMN (C)
+            .ftc.cubie
+              .content F4
+            .fcc.cubie
+              .content F5
+            .fbc.cubie
+              .content F6
+            // RIGHT COLUMN (R)
+            .ftr.cubie
+              .content F7
+            .fcr.cubie
+              .content F8
+            .fbr.cubie
+              .content F9
+            // END FRONT FACE
+            // DOWN FACE
+            // LEFT COLUMN (L)
+            .dtl.cubie
+              .content D1
+            .dcl.cubie
+              .content D2
+            .dbl.cubie
+              .content D3
+            // CENTER COLUMN (C)
+            .dtc.cubie
+              .content D4
+            .dcc.cubie
+              .content D5
+            .dbc.cubie
+              .content D6
+            // RIGHT COLUMN (R)
+            .dtr.cubie
+              .content D7
+            .dcr.cubie
+              .content D8
+            .dbr.cubie
+              .content D9
+            // END DOWN FACE
+            // BACK FACE
+            // LEFT COLUMN (L)
+            .btl.cubie
+              .content B1
+            .bcl.cubie
+              .content B2
+            .bbl.cubie
+              .content B3
+            // CENTER COLUMN (C)
+            .btc.cubie
+              .content B4
+            .bcc.cubie
+              .content B5
+            .bbc.cubie
+              .content B6
+            // RIGHT COLUMN (R)
+            .btr.cubie
+              .content B7
+            .bcr.cubie
+              .content B8
+            .bbr.cubie
+              .content B9
+            // END BOTTOM FACE
+            // LEFT FACE
+            // LEFT COLUMN (L)
+            .ltl.cubie
+              .content L1
+            .lcl.cubie
+              .content L2
+            .lbl.cubie
+              .content L3
+            // CENTER COLUMN (C)
+            .ltc.cubie
+              .content L4
+            .lcc.cubie
+              .content L5
+            .lbc.cubie
+              .content L6
+            // RIGHT COLUMN (R)
+            .ltr.cubie
+              .content L7
+            .lcr.cubie
+              .content L8
+            .lbr.cubie
+              .content L9
+            // END LEFT FACE
+            // RIGHT FACE
+            // LEFT COLUMN (L)
+            .rtl.cubie
+              .content R1
+            .rcl.cubie
+              .content R2
+            .rbl.cubie
+              .content R3
+            // CENTER COLUMN (C)
+            .rtc.cubie
+              .content R4
+            .rcc.cubie
+              .content R5
+            .rbc.cubie
+              .content R6
+            // RIGHT COLUMN (R)
+            .rtr.cubie
+              .content R7
+            .rcr.cubie
+              .content R8
+            .rbr.cubie
+              .content R9
+            // END LEFT FACE
+    // CONTROLS
+    section#control
+      p
+        | X: 
+        input#rx(type='range', max='360', min='0', value='0', onchange='rotate()')
+      p
+        | Y: 
+        input#ry(type='range', max='360', min='0', value='130', onchange='rotate()')
+      p
+        | Plane: 
+        input#plane(type='checkbox', onclick='showPlane(this)')
+    script(src="./asset/javascripts/myCube.js")
