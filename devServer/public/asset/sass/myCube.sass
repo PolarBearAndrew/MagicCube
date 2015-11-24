@@ -29,7 +29,6 @@ body
   height: 400px
   width: 400px
   -webkit-transform-style: preserve-3d
-  -moz-transform-style: preserve-3d
   .cubie
     position: absolute
     margin: 1px
@@ -51,228 +50,213 @@ body
 
 /*UP FACE CUBIES
 
+@mixin translate3d($rx, $ry, $tx, $ty, $tz)
+  transform: rotateX($rx+deg) rotateY($ry+deg) translate3d($tx+px, $ty+px, $tz+px)
+
+@mixin rotate($rx, $ry)
+  &.y1
+    +translate3d($rx, $ry, 1, -100, 1)
+  &.y2
+    +translate3d($rx, $ry, 1, 0, 1)
+  &.y3
+    +translate3d($rx, $ry, 1, 100, 1)
+  &.y4
+    +translate3d($rx, $ry, 1, 50, 1)
+  &.y5
+    +translate3d($rx, $ry, 1, 150, 1)
+  &.y6
+    +translate3d($rx, $ry, 1, 250, 1)
+  &.y7
+    +translate3d($rx, $ry, 1, -250, 1)
+  &.y8
+    +translate3d($rx, $ry, 1, -150, 1)
+  &.y9
+    +translate3d($rx, $ry, 1, -50, 1)
+
+.x1
+  +rotate(90, 0)
+.x2
+  +rotate(0, 0)
+.x3
+  +rotate(-90, 0)
+.x4
+  +rotate(-180, 0)
+.x5
+  +rotate(-0, -90)
+.x5
+  +rotate(-0, 90)
+
+
+
+
 .x1.y1.z1
   -webkit-transform: rotateX(90deg) translate3d(50px, -100px, 0)
-  -moz-transform: rotateX(90deg) translate3d(50px, -100px, 0)
 
 .x1.y2.z1
   -webkit-transform: rotateX(90deg) translate3d(50px, 0, 0)
-  -moz-transform: rotateX(90deg) translate3d(50px, 0, 0)
 
 .x1.y3.z1
   -webkit-transform: rotateX(90deg) translate3d(50px, 100px, 0px)
-  -moz-transform: rotateX(90deg) translate3d(50px, 100px, 0px)
 
 .x1.y1.z2
   -webkit-transform: rotateX(90deg) translate3d(150px, -100px, 0)
-  -moz-transform: rotateX(90deg) translate3d(150px, -100px, 0)
 
 .x1.y2.z2
   -webkit-transform: rotateX(90deg) translate3d(150px, 0, 0)
-  -moz-transform: rotateX(90deg) translate3d(150px, 0, 0)
 
 .x1.y3.z2
   -webkit-transform: rotateX(90deg) translate3d(150px, 100px, 0)
-  -moz-transform: rotateX(90deg) translate3d(150px, 100px, 0)
 
 .x1.y1.z3
   -webkit-transform: rotateX(90deg) translate3d(250px, -100px, 0)
-  -moz-transform: rotateX(90deg) translate3d(250px, -100px, 0)
 
 .x1.y2.z3
   -webkit-transform: rotateX(90deg) translate3d(250px, 0, 0)
-  -moz-transform: rotateX(90deg) translate3d(250px, 0, 0)
 
 .x1.y3.z3
   -webkit-transform: rotateX(90deg) translate3d(250px, 100px, 0)
-  -moz-transform: rotateX(90deg) translate3d(250px, 100px, 0)
 
 /*FRONT FACE CUBIES
 
-.x2.y1.z1
+.x2.y4.z1
   -webkit-transform: translate3d(50px, 50px, 150px)
-  -moz-transform: translate3d(50px, 50px, 150px)
 
-.x2.y2.z1
+.x2.y5.z1
   -webkit-transform: translate3d(50px, 150px, 150px)
-  -moz-transform: translate3d(50px, 150px, 150px)
 
-.x2.y3.z1
+.x2.y6.z1
   -webkit-transform: translate3d(50px, 250px, 150px)
-  -moz-transform: translate3d(50px, 250px, 150px)
 
-.x2.y1.z2
+.x2.y4.z2
   -webkit-transform: translate3d(150px, 50px, 150px)
-  -moz-transform: translate3d(150px, 50px, 150px)
 
-.x2.y2.z2
+.x2.y5.z2
   -webkit-transform: translate3d(150px, 150px, 150px)
-  -moz-transform: translate3d(150px, 150px, 150px)
 
-.x2.y3.z2
+.x2.y6.z2
   -webkit-transform: translate3d(150px, 250px, 150px)
-  -moz-transform: translate3d(150px, 250px, 150px)
 
-.x2.y1.z3
+.x2.y4.z3
   -webkit-transform: translate3d(250px, 50px, 150px)
-  -moz-transform: translate3d(250px, 50px, 150px)
 
-.x2.y2.z3
+.x2.y5.z3
   -webkit-transform: translate3d(250px, 150px, 150px)
-  -moz-transform: translate3d(250px, 150px, 150px)
 
-.x2.y3.z3
+.x2.y6.z3
   -webkit-transform: translate3d(250px, 250px, 150px)
-  -moz-transform: translate3d(250px, 250px, 150px)
 
 /*DOWN FACE CUBIES
 
 .x3.y1.z1
   -webkit-transform: rotateX(-90deg) translate3d(50px, -100px, 300px)
-  -moz-transform: rotateX(-90deg) translate3d(50px, -100px, 300px)
 
 .x3.y2.z1
   -webkit-transform: rotateX(-90deg) translate3d(50px, 0, 300px)
-  -moz-transform: rotateX(-90deg) translate3d(50px, 0, 300px)
 
 .x3.y3.z1
   -webkit-transform: rotateX(-90deg) translate3d(50px, 100px, 300px)
-  -moz-transform: rotateX(-90deg) translate3d(50px, 100px, 300px)
 
 .x3.y1.z2
   -webkit-transform: rotateX(-90deg) translate3d(150px, -100px, 300px)
-  -moz-transform: rotateX(-90deg) translate3d(150px, -100px, 300px)
 
 .x3.y2.z2
   -webkit-transform: rotateX(-90deg) translate3d(150px, 0px, 300px)
-  -moz-transform: rotateX(-90deg) translate3d(150px, 0px, 300px)
 
 .x3.y3.z2
   -webkit-transform: rotateX(-90deg) translate3d(150px, 100px, 300px)
-  -moz-transform: rotateX(-90deg) translate3d(150px, 100px, 300px)
 
 .x3.y1.z3
   -webkit-transform: rotateX(-90deg) translate3d(250px, -100px, 300px)
-  -moz-transform: rotateX(-90deg) translate3d(250px, -100px, 300px)
 
 .x3.y2.z3
   -webkit-transform: rotateX(-90deg) translate3d(250px, 0px, 300px)
-  -moz-transform: rotateX(-90deg) translate3d(250px, 0px, 300px)
 
 .x3.y3.z3
   -webkit-transform: rotateX(-90deg) translate3d(250px, 100px, 300px)
-  -moz-transform: rotateX(-90deg) translate3d(250px, 100px, 300px)
 
 /*BACK FACE CUBIES
 
-.x4.y1.z1
+.x4.y7.z1
   -webkit-transform: rotateX(-180deg) translate3d(50px, -250px, 150px)
-  -moz-transform: rotateX(-180deg) translate3d(50px, -250px, 150px)
 
-.x4.y2.z1
+.x4.y8.z1
   -webkit-transform: rotateX(-180deg) translate3d(50px, -150px, 150px)
-  -moz-transform: rotateX(-180deg) translate3d(50px, -150px, 150px)
 
-.x4.y3.z1
+.x4.y9.z1
   -webkit-transform: rotateX(-180deg) translate3d(50px, -50px, 150px)
-  -moz-transform: rotateX(-180deg) translate3d(50px, -50px, 150px)
 
-.x4.y1.z2
+.x4.y7.z2
   -webkit-transform: rotateX(-180deg) translate3d(150px, -250px, 150px)
-  -moz-transform: rotateX(-180deg) translate3d(150px, -250px, 150px)
 
-.x4.y2.z2
+.x4.y8.z2
   -webkit-transform: rotateX(-180deg) translate3d(150px, -150px, 150px)
-  -moz-transform: rotateX(-180deg) translate3d(150px, -150px, 150px)
 
-.x4.y3.z2
+.x4.y9.z2
   -webkit-transform: rotateX(-180deg) translate3d(150px, -50px, 150px)
-  -moz-transform: rotateX(-180deg) translate3d(150px, -50px, 150px)
 
-.x4.y1.z3
+.x4.y7.z3
   -webkit-transform: rotateX(-180deg) translate3d(250px, -250px, 150px)
-  -moz-transform: rotateX(-180deg) translate3d(250px, -250px, 150px)
 
-.x4.y2.z3
+.x4.y8.z3
   -webkit-transform: rotateX(-180deg) translate3d(250px, -150px, 150px)
-  -moz-transform: rotateX(-180deg) translate3d(250px, -150px, 150px)
 
-.x4.y3.z3
+.x4.y9.z3
   -webkit-transform: rotateX(-180deg) translate3d(250px, -50px, 150px)
-  -moz-transform: rotateX(-180deg) translate3d(250px, -50px, 150px)
 
 /*LEFT FACE CUBIES
 
-.x5.y1.z1
+.x5.y4.z1
   -webkit-transform: rotateY(-90deg) translate3d(-100px, 50px, 0px)
-  -moz-transform: rotateY(-90deg) translate3d(-100px, 50px, 0px)
 
-.x5.y2.z1
+.x5.y5.z1
   -webkit-transform: rotateY(-90deg) translate3d(-100px, 150px, 0px)
-  -moz-transform: rotateY(-90deg) translate3d(-100px, 150px, 0px)
 
-.x5.y3.z1
+.x5.y6.z1
   -webkit-transform: rotateY(-90deg) translate3d(-100px, 250px, 0px)
-  -moz-transform: rotateY(-90deg) translate3d(-100px, 250px, 0px)
 
-.x5.y1.z2
+.x5.y4.z2
   -webkit-transform: rotateY(-90deg) translate3d(0px, 50px, 0px)
-  -moz-transform: rotateY(-90deg) translate3d(0px, 50px, 0px)
 
-.x5.y2.z2
+.x5.y5.z2
   -webkit-transform: rotateY(-90deg) translate3d(0px, 150px, 0px)
-  -moz-transform: rotateY(-90deg) translate3d(0px, 150px, 0px)
 
-.x5.y3.z2
+.x5.y6.z2
   -webkit-transform: rotateY(-90deg) translate3d(0px, 250px, 0px)
-  -moz-transform: rotateY(-90deg) translate3d(0px, 250px, 0px)
 
-.x5.y1.z3
+.x5.y4.z3
   -webkit-transform: rotateY(-90deg) translate3d(100px, 50px, 0px)
-  -moz-transform: rotateY(-90deg) translate3d(100px, 50px, 0px)
 
-.x5.y2.z3
+.x5.y5.z3
   -webkit-transform: rotateY(-90deg) translate3d(100px, 150px, 0px)
-  -moz-transform: rotateY(-90deg) translate3d(100px, 150px, 0px)
 
-.x5.y3.z3
+.x5.y6.z3
   -webkit-transform: rotateY(-90deg) translate3d(100px, 250px, 0px)
-  -moz-transform: rotateY(-90deg) translate3d(100px, 250px, 0px)
 
 /*RIGHT FACE CUBIES
 
-.x6.y1.z1
+.x6.y4.z1
   -webkit-transform: rotateY(90deg) translate3d(-100px, 50px, 300px)
-  -moz-transform: rotateY(90deg) translate3d(-100px, 50px, 300px)
 
-.x6.y2.z1
+.x6.y5.z1
   -webkit-transform: rotateY(90deg) translate3d(-100px, 150px, 300px)
-  -moz-transform: rotateY(90deg) translate3d(-100px, 150px, 300px)
 
-.x6.y3.z1
+.x6.y6.z1
   -webkit-transform: rotateY(90deg) translate3d(-100px, 250px, 300px)
-  -moz-transform: rotateY(90deg) translate3d(-100px, 250px, 300px)
 
-.x6.y1.z2
+.x6.y4.z2
   -webkit-transform: rotateY(90deg) translate3d(0px, 50px, 300px)
-  -moz-transform: rotateY(90deg) translate3d(0px, 50px, 300px)
 
-.x6.y2.z2
+.x6.y5.z2
   -webkit-transform: rotateY(90deg) translate3d(0px, 150px, 300px)
-  -moz-transform: rotateY(90deg) translate3d(0px, 150px, 300px)
 
-.x6.y3.z2
+.x6.y6.z2
   -webkit-transform: rotateY(90deg) translate3d(0px, 250px, 300px)
-  -moz-transform: rotateY(90deg) translate3d(0px, 250px, 300px)
 
-.x6.y1.z3
+.x6.y4.z3
   -webkit-transform: rotateY(90deg) translate3d(100px, 50px, 300px)
-  -moz-transform: rotateY(90deg) translate3d(100px, 50px, 300px)
 
-.x6.y2.z3
+.x6.y5.z3
   -webkit-transform: rotateY(90deg) translate3d(100px, 150px, 300px)
-  -moz-transform: rotateY(90deg) translate3d(100px, 150px, 300px)
 
-.x6.y3.z3
+.x6.y6.z3
   -webkit-transform: rotateY(90deg) translate3d(100px, 250px, 300px)
-  -moz-transform: rotateY(90deg) translate3d(100px, 250px, 300px)
