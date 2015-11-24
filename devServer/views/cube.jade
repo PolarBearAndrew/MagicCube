@@ -9,145 +9,72 @@ html
     section#rubik
       #cube-container
         #cube-viewport
-          #cube(style='-webkit-transform: rotateX(0deg) rotateY(130deg)')
-            // UP FACE
-            // LEFT COLUMN (L)
-            .x1.y1.z1.cubie
-              .content U1
-            .x1.y2.z1.cubie
-              .content U2
-            .x1.y3.z1.cubie
-              .content U3
-            // CENTER COLUMN (C)
-            .x1.y1.z2.cubie
-              .content U4
-            .x1.y2.z2.cubie
-              .content U5
-            .x1.y3.z2.cubie
-              .content U6
-            // RIGHT COLUMN (R)
-            .x1.y1.z3.cubie
-              .content U7
-            .x1.y2.z3.cubie
-              .content U8
-            .x1.y3.z3.cubie
-              .content U9
-            // END UP FACE
-            // FRONT FACE
-            // LEFT COLUMN (L)
-            .x2.y1.z1.cubie
-              .content F1
-            .x2.y2.z1.cubie
-              .content F2
-            .x2.y3.z1.cubie
-              .content F3
-            // CENTER COLUMN (C)
-            .x2.y1.z2.cubie
-              .content F4
-            .x2.y2.z2.cubie
-              .content F5
-            .x2.y3.z2.cubie
-              .content F6
-            // RIGHT COLUMN (R)
-            .x2.y1.z3.cubie
-              .content F7
-            .x2.y2.z3.cubie
-              .content F8
-            .x2.y3.z3.cubie
-              .content F9
-            // END FRONT FACE
-            // DOWN FACE
-            // LEFT COLUMN (L)
-            .x3.y1.z1.cubie
-              .content D1
-            .x3.y2.z1.cubie
-              .content D2
-            .x3.y3.z1.cubie
-              .content D3
-            // CENTER COLUMN (C)
-            .x3.y1.z2.cubie
-              .content D4
-            .x3.y2.z2.cubie
-              .content D5
-            .x3.y3.z2.cubie
-              .content D6
-            // RIGHT COLUMN (R)
-            .x3.y1.z3.cubie
-              .content D7
-            .x3.y2.z3.cubie
-              .content D8
-            .x3.y3.z3.cubie
-              .content D9
-            // END DOWN FACE
-            // BACK FACE
-            // LEFT COLUMN (L)
-            .x4.y1.z1.cubie
-              .content B1
-            .x4.y2.z1.cubie
-              .content B2
-            .x4.y3.z1.cubie
-              .content B3
-            // CENTER COLUMN (C)
-            .x4.y1.z2.cubie
-              .content B4
-            .x4.y2.z2.cubie
-              .content B5
-            .x4.y3.z2.cubie
-              .content B6
-            // RIGHT COLUMN (R)
-            .x4.y1.z3.cubie
-              .content B7
-            .x4.y2.z3.cubie
-              .content B8
-            .x4.y3.z3.cubie
-              .content B9
-            // END BOTTOM FACE
-            // LEFT FACE
-            // LEFT COLUMN (L)
-            .x5.y1.z1.cubie
-              .content L1
-            .x5.y2.z1.cubie
-              .content L2
-            .x5.y3.z1.cubie
-              .content L3
-            // CENTER COLUMN (C)
-            .x5.y1.z2.cubie
-              .content L4
-            .x5.y2.z2.cubie
-              .content L5
-            .x5.y3.z2.cubie
-              .content L6
-            // RIGHT COLUMN (R)
-            .x5.y1.z3.cubie
-              .content L7
-            .x5.y2.z3.cubie
-              .content L8
-            .x5.y3.z3.cubie
-              .content L9
-            // END LEFT FACE
-            // RIGHT FACE
-            // LEFT COLUMN (L)
-            .x6.y1.z1.cubie
-              .content R1
-            .x6.y2.z1.cubie
-              .content R2
-            .x6.y3.z1.cubie
-              .content R3
-            // CENTER COLUMN (C)
-            .x6.y1.z2.cubie
-              .content R4
-            .x6.y2.z2.cubie
-              .content R5
-            .x6.y3.z2.cubie
-              .content R6
-            // RIGHT COLUMN (R)
-            .x6.y1.z3.cubie
-              .content R7
-            .x6.y2.z3.cubie
-              .content R8
-            .x6.y3.z3.cubie
-              .content R9
-            // END LEFT FACE
+          .x1.y1.z1.cubie
+          .x1.y2.z1.cubie
+          .x1.y3.z1.cubie
+          .x1.y1.z2.cubie
+          .x1.y2.z2.cubie
+          .x1.y3.z2.cubie
+          .x1.y1.z3.cubie
+          .x1.y2.z3.cubie
+          .x1.y3.z3.cubie
+          //-  FRONT FACE CUBIES
+
+          .x2.y4.z1.cubie
+          .x2.y5.z1.cubie
+          .x2.y6.z1.cubie
+          .x2.y4.z2.cubie
+          .x2.y5.z2.cubie
+          .x2.y6.z2.cubie
+          .x2.y4.z3.cubie
+          .x2.y5.z3.cubie
+          .x2.y6.z3.cubie
+          //- DOWN FACE CUBIES
+
+          .x3.y1.z1.cubie
+          .x3.y2.z1.cubie
+          .x2.y6.z1.cubie
+          .x3.y3.z1.cubie
+          .x3.y1.z2.cubie
+          .x3.y2.z2.cubie
+          .x3.y3.z2.cubie
+          .x3.y1.z3.cubie
+          .x3.y2.z3.cubie
+          .x3.y3.z3.cubie
+          //- BACK FACE CUBIES
+
+          .x4.y7.z1.cubie
+          .x4.y8.z1.cubie
+          .x4.y6.z1.cubie
+          .x4.y9.z1.cubie
+          .x4.y7.z2.cubie
+          .x4.y8.z2.cubie
+          .x4.y9.z2.cubie
+          .x4.y7.z3.cubie
+          .x4.y8.z3.cubie
+          .x4.y9.z3.cubie
+          //- LEFT FACE CUBIES
+
+          .x5.y4.z1.cubie
+          .x5.y5.z1.cubie
+          .x5.y6.z1.cubie
+          .x5.y4.z2.cubie
+          .x5.y5.z2.cubie
+          .x5.y6.z2.cubie
+          .x5.y4.z3.cubie
+          .x5.y5.z3.cubie
+          .x5.y6.z3.cubie
+          //- RIGHT FACE CUBIES
+
+          .x6.y4.z1.cubie
+          .x6.y5.z1.cubie
+          .x6.y6.z1.cubie
+          .x6.y4.z2.cubie
+          .x6.y5.z2.cubie
+          .x6.y6.z2.cubie
+          .x6.y4.z3.cubie
+          .x6.y5.z3.cubie
+          .x6.y6.z3.cubie
     // CONTROLS
     section#control(style="display:none")
       p
