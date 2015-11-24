@@ -39,52 +39,51 @@ body
     z-index: -1
     text-align: center
     font-size: 30px
-    > div
-      line-height: 100px
-      border-radius: 8px
-      span
-        opacity: 0.6
-        font-size: 14px
+    // > div
+    line-height: 100px
+    border-radius: 8px
+    opacity: 0.6
+    font-size: 14px
 
 /* CUBIES POSITIONS
 
 /*UP FACE CUBIES
-
-@mixin translate3d($rx, $ry, $tx, $ty, $tz)
-  transform: rotateX($rx+deg) rotateY($ry+deg) translate3d($tx+px, $ty+px, $tz+px)
-
-@mixin rotate($rx, $ry)
-  &.y1
-    +translate3d($rx, $ry, 1, -100, 1)
-  &.y2
-    +translate3d($rx, $ry, 1, 0, 1)
-  &.y3
-    +translate3d($rx, $ry, 1, 100, 1)
-  &.y4
-    +translate3d($rx, $ry, 1, 50, 1)
-  &.y5
-    +translate3d($rx, $ry, 1, 150, 1)
-  &.y6
-    +translate3d($rx, $ry, 1, 250, 1)
-  &.y7
-    +translate3d($rx, $ry, 1, -250, 1)
-  &.y8
-    +translate3d($rx, $ry, 1, -150, 1)
-  &.y9
-    +translate3d($rx, $ry, 1, -50, 1)
-
-.x1
-  +rotate(90, 0)
-.x2
-  +rotate(0, 0)
-.x3
-  +rotate(-90, 0)
-.x4
-  +rotate(-180, 0)
-.x5
-  +rotate(-0, -90)
-.x6
-  +rotate(-0, 90)
+//
+// @mixin translate3d($rx, $ry, $tx, $ty, $tz)
+//   transform: rotateX($rx+deg) rotateY($ry+deg) translate3d($tx+px, $ty+px, $tz+px)
+//
+// @mixin rotate($rx, $ry)
+//   &.y1
+//     +translate3d($rx, $ry, 1, -100, 1)
+//   &.y2
+//     +translate3d($rx, $ry, 1, 0, 1)
+//   &.y3
+//     +translate3d($rx, $ry, 1, 100, 1)
+//   &.y4
+//     +translate3d($rx, $ry, 1, 50, 1)
+//   &.y5
+//     +translate3d($rx, $ry, 1, 150, 1)
+//   &.y6
+//     +translate3d($rx, $ry, 1, 250, 1)
+//   &.y7
+//     +translate3d($rx, $ry, 1, -250, 1)
+//   &.y8
+//     +translate3d($rx, $ry, 1, -150, 1)
+//   &.y9
+//     +translate3d($rx, $ry, 1, -50, 1)
+//
+// .x1
+//   +rotate(90, 0)
+// .x2
+//   +rotate(0, 0)
+// .x3
+//   +rotate(-90, 0)
+// .x4
+//   +rotate(-180, 0)
+// .x5
+//   +rotate(-0, -90)
+// .x6
+//   +rotate(-0, 90)
 
 
 
