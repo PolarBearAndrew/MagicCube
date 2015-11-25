@@ -171,3 +171,18 @@ body {
   transform: rotateX(-90deg) rotateY(0deg) translateZ(25px);
   background-color: #eb9f0c;
 }
+
+/* line 88, ../sass/cube.sass */
+.animate {
+  animation: rolling 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rolling {
+  from {
+    transform: rotateY(360deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
