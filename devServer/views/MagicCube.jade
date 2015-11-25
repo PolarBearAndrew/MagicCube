@@ -6,16 +6,7 @@ html(lang='en')
     link(rel="stylesheet", href="./asset/stylesheets/cube.css")
     //- script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
   body
-    //- - for( var i = 0; i < 3; i++)
-    //- .container.animate
-    //-   .cube
-    //-     figure.front 1 
-    //-     figure.back 1
-    //-     figure.right
-    //-     figure.left
-    //-     figure.top
-    //-     figure.bottom
-    .container.animate.test
+    .container.test.animate
       - for( var x = 1; x <= 3; x++ )
         - for( var y = 1; y <= 3; y++ )
           - for( var z = 1; z <= 3; z++ )
@@ -27,7 +18,6 @@ html(lang='en')
                 figure.left
                 figure.top
                 figure.bottom
-
 //- <!DOCTYPE html>
 //- html(lang="en")
 //- head

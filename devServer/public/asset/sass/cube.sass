@@ -1,13 +1,8 @@
-/* @import 'compass/reset' */
-@import 'compass/css3'
+// @import 'compass/reset'
 // @import 'compass/css3/transform'
+@import 'compass/css3'
 
 $box-size: 50px
-
-// @mixin flex-center
-//   @include display-flex
-//   @include align-items(center)
-//   @include justify-content(center)
 
 @mixin cubeFigure($rX, $rY, $mZ)
   transform: rotateX($rX+deg) rotateY($rY+deg) translateZ($mZ+px)
@@ -22,19 +17,19 @@ $box-size: 50px
 
 @mixin locateCubeY($mX)
   &.y1
-    +locateCubeZ($mX, -50)
-  &.y2
     +locateCubeZ($mX, 0)
-  &.y3
+  &.y2
     +locateCubeZ($mX, 50)
+  &.y3
+    +locateCubeZ($mX, 100)
 
 @mixin locateCube
   &.x1
-    +locateCubeY(-50)
-  &.x2
     +locateCubeY(0)
-  &.x3
+  &.x2
     +locateCubeY(50)
+  &.x3
+    +locateCubeY(100)
 
 body
   // @include display-flex
@@ -51,19 +46,18 @@ body
   width: $box-size * 3
   height: $box-size * 3
   margin-left: -$box-size / 2
-  border: 1px solid white
+  // border: 1px solid white
   // @include perspective( relative )
   // perspective: 10000px
 
-.cube
-  @include transform-style(preserve-3d)
   // position: absolute
   // border: 1px solid red
   // width: 100%
   // height: 100%
+.cube
+  @include transform-style(preserve-3d)
   +locateCube
   figure
-    // z-index: -1 !important
     display: block
     position: absolute
     border: 4px solid black
@@ -90,6 +84,7 @@ body
       +cubeFigure(-90, 0, 25)
       background-color: rgb(235, 159, 12)
 
+// .x1.y1.z3
 .animate
   animation: rolling 3s infinite
   animation-timing-function: linear
