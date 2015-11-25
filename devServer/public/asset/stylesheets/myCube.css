@@ -38,7 +38,6 @@ body {
 
 /* line 27, ../sass/myCube.sass */
 #cube {
-  opacity: 0.8;
   height: 400px;
   width: 400px;
   -webkit-transform-style: preserve-3d;
@@ -53,3903 +52,3924 @@ body {
   height: 100px;
   z-index: -1;
   text-align: center;
-  font-size: 30px;
   line-height: 100px;
   border-radius: 8px;
-  opacity: 0.6;
-  font-size: 14px;
 }
 
-/* line 54, ../sass/myCube.sass */
+/* line 97, ../sass/myCube.sass */
+.r1 {
+  background-color: red;
+}
+/* line 53, ../sass/myCube.sass */
 .r1.x1.y1.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x1.y1.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x1.y1.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x1.y2.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x1.y2.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x1.y2.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x1.y3.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x1.y3.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x1.y3.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x1.y4.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x1.y4.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x1.y4.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x1.y5.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x1.y5.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x1.y5.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x1.y6.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x1.y6.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x1.y6.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x1.y7.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x1.y7.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x1.y7.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x1.y8.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x1.y8.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x1.y8.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x1.y9.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x1.y9.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x1.y9.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(50px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x2.y1.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x2.y1.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x2.y1.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x2.y2.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x2.y2.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x2.y2.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x2.y3.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x2.y3.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x2.y3.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x2.y4.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x2.y4.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x2.y4.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x2.y5.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x2.y5.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x2.y5.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x2.y6.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x2.y6.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x2.y6.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x2.y7.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x2.y7.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x2.y7.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x2.y8.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x2.y8.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x2.y8.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x2.y9.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x2.y9.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x2.y9.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(150px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x3.y1.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x3.y1.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x3.y1.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x3.y2.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x3.y2.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x3.y2.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x3.y3.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x3.y3.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x3.y3.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x3.y4.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x3.y4.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x3.y4.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x3.y5.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x3.y5.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x3.y5.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x3.y6.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x3.y6.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x3.y6.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x3.y7.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x3.y7.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x3.y7.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x3.y8.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x3.y8.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x3.y8.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x3.y9.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x3.y9.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x3.y9.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(250px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x4.y1.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x4.y1.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x4.y1.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x4.y2.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x4.y2.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x4.y2.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x4.y3.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x4.y3.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x4.y3.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x4.y4.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x4.y4.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x4.y4.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x4.y5.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x4.y5.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x4.y5.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x4.y6.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x4.y6.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x4.y6.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x4.y7.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x4.y7.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x4.y7.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x4.y8.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x4.y8.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x4.y8.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x4.y9.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x4.y9.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x4.y9.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(-100px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x5.y1.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x5.y1.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x5.y1.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x5.y2.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x5.y2.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x5.y2.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x5.y3.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x5.y3.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x5.y3.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x5.y4.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x5.y4.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x5.y4.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x5.y5.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x5.y5.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x5.y5.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x5.y6.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x5.y6.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x5.y6.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x5.y7.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x5.y7.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x5.y7.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x5.y8.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x5.y8.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x5.y8.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x5.y9.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x5.y9.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x5.y9.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(0px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x6.y1.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x6.y1.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x6.y1.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x6.y2.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x6.y2.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x6.y2.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x6.y3.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x6.y3.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x6.y3.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x6.y4.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x6.y4.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x6.y4.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x6.y5.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x6.y5.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x6.y5.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x6.y6.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x6.y6.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x6.y6.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x6.y7.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x6.y7.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x6.y7.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x6.y8.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x6.y8.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x6.y8.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r1.x6.y9.z1 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r1.x6.y9.z2 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r1.x6.y9.z3 {
   transform: rotateX(90deg) rotateY(0deg) translate3d(100px, -50px, 300px);
 }
 
-/* line 54, ../sass/myCube.sass */
+/* line 100, ../sass/myCube.sass */
+.r2 {
+  background-color: blue;
+}
+/* line 53, ../sass/myCube.sass */
 .r2.x1.y1.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x1.y1.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x1.y1.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x1.y2.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x1.y2.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x1.y2.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x1.y3.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x1.y3.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x1.y3.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x1.y4.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x1.y4.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x1.y4.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x1.y5.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x1.y5.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x1.y5.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x1.y6.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x1.y6.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x1.y6.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x1.y7.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x1.y7.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x1.y7.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x1.y8.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x1.y8.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x1.y8.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x1.y9.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x1.y9.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x1.y9.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(50px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x2.y1.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x2.y1.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x2.y1.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x2.y2.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x2.y2.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x2.y2.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x2.y3.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x2.y3.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x2.y3.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x2.y4.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x2.y4.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x2.y4.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x2.y5.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x2.y5.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x2.y5.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x2.y6.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x2.y6.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x2.y6.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x2.y7.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x2.y7.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x2.y7.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x2.y8.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x2.y8.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x2.y8.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x2.y9.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x2.y9.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x2.y9.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(150px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x3.y1.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x3.y1.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x3.y1.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x3.y2.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x3.y2.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x3.y2.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x3.y3.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x3.y3.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x3.y3.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x3.y4.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x3.y4.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x3.y4.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x3.y5.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x3.y5.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x3.y5.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x3.y6.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x3.y6.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x3.y6.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x3.y7.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x3.y7.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x3.y7.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x3.y8.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x3.y8.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x3.y8.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x3.y9.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x3.y9.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x3.y9.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(250px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x4.y1.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x4.y1.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x4.y1.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x4.y2.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x4.y2.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x4.y2.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x4.y3.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x4.y3.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x4.y3.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x4.y4.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x4.y4.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x4.y4.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x4.y5.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x4.y5.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x4.y5.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x4.y6.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x4.y6.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x4.y6.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x4.y7.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x4.y7.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x4.y7.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x4.y8.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x4.y8.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x4.y8.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x4.y9.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x4.y9.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x4.y9.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(-100px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x5.y1.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x5.y1.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x5.y1.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x5.y2.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x5.y2.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x5.y2.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x5.y3.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x5.y3.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x5.y3.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x5.y4.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x5.y4.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x5.y4.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x5.y5.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x5.y5.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x5.y5.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x5.y6.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x5.y6.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x5.y6.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x5.y7.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x5.y7.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x5.y7.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x5.y8.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x5.y8.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x5.y8.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x5.y9.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x5.y9.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x5.y9.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(0px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x6.y1.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x6.y1.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x6.y1.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x6.y2.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x6.y2.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x6.y2.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x6.y3.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x6.y3.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x6.y3.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x6.y4.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x6.y4.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x6.y4.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x6.y5.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x6.y5.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x6.y5.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x6.y6.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x6.y6.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x6.y6.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x6.y7.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x6.y7.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x6.y7.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x6.y8.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x6.y8.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x6.y8.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r2.x6.y9.z1 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r2.x6.y9.z2 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r2.x6.y9.z3 {
   transform: rotateX(0deg) rotateY(0deg) translate3d(100px, -50px, 300px);
 }
 
-/* line 54, ../sass/myCube.sass */
+/* line 103, ../sass/myCube.sass */
+.r3 {
+  background-color: green;
+}
+/* line 53, ../sass/myCube.sass */
 .r3.x1.y1.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x1.y1.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x1.y1.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x1.y2.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x1.y2.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x1.y2.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x1.y3.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x1.y3.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x1.y3.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x1.y4.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x1.y4.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x1.y4.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x1.y5.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x1.y5.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x1.y5.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x1.y6.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x1.y6.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x1.y6.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x1.y7.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x1.y7.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x1.y7.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x1.y8.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x1.y8.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x1.y8.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x1.y9.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x1.y9.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x1.y9.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(50px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x2.y1.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x2.y1.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x2.y1.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x2.y2.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x2.y2.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x2.y2.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x2.y3.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x2.y3.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x2.y3.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x2.y4.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x2.y4.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x2.y4.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x2.y5.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x2.y5.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x2.y5.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x2.y6.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x2.y6.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x2.y6.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x2.y7.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x2.y7.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x2.y7.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x2.y8.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x2.y8.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x2.y8.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x2.y9.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x2.y9.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x2.y9.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(150px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x3.y1.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x3.y1.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x3.y1.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x3.y2.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x3.y2.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x3.y2.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x3.y3.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x3.y3.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x3.y3.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x3.y4.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x3.y4.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x3.y4.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x3.y5.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x3.y5.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x3.y5.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x3.y6.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x3.y6.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x3.y6.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x3.y7.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x3.y7.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x3.y7.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x3.y8.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x3.y8.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x3.y8.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x3.y9.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x3.y9.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x3.y9.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(250px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x4.y1.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x4.y1.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x4.y1.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x4.y2.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x4.y2.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x4.y2.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x4.y3.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x4.y3.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x4.y3.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x4.y4.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x4.y4.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x4.y4.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x4.y5.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x4.y5.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x4.y5.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x4.y6.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x4.y6.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x4.y6.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x4.y7.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x4.y7.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x4.y7.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x4.y8.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x4.y8.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x4.y8.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x4.y9.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x4.y9.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x4.y9.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(-100px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x5.y1.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x5.y1.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x5.y1.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x5.y2.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x5.y2.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x5.y2.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x5.y3.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x5.y3.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x5.y3.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x5.y4.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x5.y4.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x5.y4.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x5.y5.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x5.y5.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x5.y5.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x5.y6.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x5.y6.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x5.y6.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x5.y7.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x5.y7.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x5.y7.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x5.y8.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x5.y8.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x5.y8.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x5.y9.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x5.y9.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x5.y9.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(0px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x6.y1.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x6.y1.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x6.y1.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x6.y2.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x6.y2.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x6.y2.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x6.y3.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x6.y3.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x6.y3.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x6.y4.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x6.y4.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x6.y4.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x6.y5.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x6.y5.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x6.y5.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x6.y6.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x6.y6.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x6.y6.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x6.y7.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x6.y7.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x6.y7.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x6.y8.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x6.y8.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x6.y8.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r3.x6.y9.z1 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r3.x6.y9.z2 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r3.x6.y9.z3 {
   transform: rotateX(-90deg) rotateY(0deg) translate3d(100px, -50px, 300px);
 }
 
-/* line 54, ../sass/myCube.sass */
+/* line 106, ../sass/myCube.sass */
+.r4 {
+  background-color: white;
+}
+/* line 53, ../sass/myCube.sass */
 .r4.x1.y1.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x1.y1.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x1.y1.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x1.y2.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x1.y2.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x1.y2.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x1.y3.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x1.y3.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x1.y3.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x1.y4.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x1.y4.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x1.y4.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x1.y5.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x1.y5.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x1.y5.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x1.y6.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x1.y6.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x1.y6.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x1.y7.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x1.y7.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x1.y7.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x1.y8.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x1.y8.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x1.y8.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x1.y9.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x1.y9.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x1.y9.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(50px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x2.y1.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x2.y1.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x2.y1.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x2.y2.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x2.y2.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x2.y2.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x2.y3.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x2.y3.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x2.y3.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x2.y4.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x2.y4.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x2.y4.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x2.y5.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x2.y5.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x2.y5.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x2.y6.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x2.y6.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x2.y6.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x2.y7.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x2.y7.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x2.y7.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x2.y8.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x2.y8.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x2.y8.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x2.y9.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x2.y9.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x2.y9.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(150px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x3.y1.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x3.y1.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x3.y1.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x3.y2.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x3.y2.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x3.y2.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x3.y3.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x3.y3.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x3.y3.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x3.y4.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x3.y4.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x3.y4.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x3.y5.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x3.y5.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x3.y5.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x3.y6.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x3.y6.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x3.y6.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x3.y7.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x3.y7.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x3.y7.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x3.y8.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x3.y8.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x3.y8.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x3.y9.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x3.y9.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x3.y9.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(250px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x4.y1.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x4.y1.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x4.y1.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x4.y2.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x4.y2.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x4.y2.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x4.y3.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x4.y3.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x4.y3.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x4.y4.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x4.y4.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x4.y4.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x4.y5.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x4.y5.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x4.y5.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x4.y6.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x4.y6.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x4.y6.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x4.y7.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x4.y7.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x4.y7.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x4.y8.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x4.y8.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x4.y8.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x4.y9.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x4.y9.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x4.y9.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(-100px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x5.y1.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x5.y1.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x5.y1.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x5.y2.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x5.y2.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x5.y2.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x5.y3.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x5.y3.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x5.y3.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x5.y4.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x5.y4.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x5.y4.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x5.y5.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x5.y5.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x5.y5.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x5.y6.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x5.y6.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x5.y6.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x5.y7.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x5.y7.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x5.y7.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x5.y8.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x5.y8.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x5.y8.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x5.y9.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x5.y9.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x5.y9.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(0px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x6.y1.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x6.y1.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x6.y1.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x6.y2.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x6.y2.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x6.y2.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x6.y3.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x6.y3.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x6.y3.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x6.y4.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x6.y4.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x6.y4.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x6.y5.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x6.y5.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x6.y5.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x6.y6.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x6.y6.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x6.y6.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x6.y7.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x6.y7.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x6.y7.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x6.y8.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x6.y8.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x6.y8.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r4.x6.y9.z1 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r4.x6.y9.z2 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r4.x6.y9.z3 {
   transform: rotateX(-180deg) rotateY(0deg) translate3d(100px, -50px, 300px);
 }
 
-/* line 54, ../sass/myCube.sass */
+/* line 109, ../sass/myCube.sass */
+.r5 {
+  background-color: orange;
+}
+/* line 53, ../sass/myCube.sass */
 .r5.x1.y1.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x1.y1.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x1.y1.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x1.y2.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x1.y2.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x1.y2.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x1.y3.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x1.y3.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x1.y3.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x1.y4.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x1.y4.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x1.y4.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x1.y5.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x1.y5.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x1.y5.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x1.y6.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x1.y6.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x1.y6.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x1.y7.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x1.y7.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x1.y7.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x1.y8.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x1.y8.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x1.y8.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x1.y9.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x1.y9.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x1.y9.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(50px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x2.y1.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x2.y1.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x2.y1.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x2.y2.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x2.y2.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x2.y2.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x2.y3.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x2.y3.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x2.y3.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x2.y4.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x2.y4.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x2.y4.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x2.y5.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x2.y5.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x2.y5.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x2.y6.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x2.y6.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x2.y6.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x2.y7.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x2.y7.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x2.y7.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x2.y8.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x2.y8.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x2.y8.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x2.y9.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x2.y9.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x2.y9.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(150px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x3.y1.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x3.y1.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x3.y1.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x3.y2.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x3.y2.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x3.y2.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x3.y3.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x3.y3.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x3.y3.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x3.y4.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x3.y4.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x3.y4.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x3.y5.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x3.y5.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x3.y5.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x3.y6.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x3.y6.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x3.y6.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x3.y7.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x3.y7.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x3.y7.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x3.y8.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x3.y8.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x3.y8.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x3.y9.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x3.y9.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x3.y9.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(250px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x4.y1.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x4.y1.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x4.y1.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x4.y2.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x4.y2.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x4.y2.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x4.y3.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x4.y3.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x4.y3.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x4.y4.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x4.y4.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x4.y4.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x4.y5.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x4.y5.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x4.y5.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x4.y6.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x4.y6.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x4.y6.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x4.y7.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x4.y7.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x4.y7.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x4.y8.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x4.y8.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x4.y8.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x4.y9.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x4.y9.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x4.y9.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(-100px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x5.y1.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x5.y1.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x5.y1.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x5.y2.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x5.y2.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x5.y2.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x5.y3.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x5.y3.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x5.y3.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x5.y4.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x5.y4.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x5.y4.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x5.y5.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x5.y5.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x5.y5.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x5.y6.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x5.y6.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x5.y6.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x5.y7.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x5.y7.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x5.y7.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x5.y8.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x5.y8.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x5.y8.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x5.y9.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x5.y9.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x5.y9.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(0px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x6.y1.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x6.y1.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x6.y1.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x6.y2.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x6.y2.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x6.y2.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x6.y3.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x6.y3.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x6.y3.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x6.y4.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x6.y4.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x6.y4.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x6.y5.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x6.y5.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x6.y5.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x6.y6.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x6.y6.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x6.y6.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x6.y7.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x6.y7.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x6.y7.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x6.y8.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x6.y8.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x6.y8.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r5.x6.y9.z1 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r5.x6.y9.z2 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r5.x6.y9.z3 {
   transform: rotateX(0deg) rotateY(-90deg) translate3d(100px, -50px, 300px);
 }
 
-/* line 54, ../sass/myCube.sass */
+/* line 112, ../sass/myCube.sass */
+.r6 {
+  background-color: yellow;
+}
+/* line 53, ../sass/myCube.sass */
 .r6.x1.y1.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x1.y1.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x1.y1.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x1.y2.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x1.y2.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x1.y2.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x1.y3.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x1.y3.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x1.y3.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x1.y4.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x1.y4.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x1.y4.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x1.y5.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x1.y5.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x1.y5.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x1.y6.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x1.y6.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x1.y6.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x1.y7.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x1.y7.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x1.y7.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x1.y8.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x1.y8.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x1.y8.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x1.y9.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x1.y9.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x1.y9.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(50px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x2.y1.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x2.y1.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x2.y1.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x2.y2.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x2.y2.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x2.y2.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x2.y3.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x2.y3.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x2.y3.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x2.y4.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x2.y4.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x2.y4.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x2.y5.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x2.y5.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x2.y5.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x2.y6.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x2.y6.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x2.y6.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x2.y7.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x2.y7.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x2.y7.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x2.y8.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x2.y8.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x2.y8.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x2.y9.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x2.y9.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x2.y9.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(150px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x3.y1.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x3.y1.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x3.y1.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x3.y2.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x3.y2.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x3.y2.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x3.y3.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x3.y3.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x3.y3.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x3.y4.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x3.y4.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x3.y4.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x3.y5.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x3.y5.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x3.y5.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x3.y6.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x3.y6.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x3.y6.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x3.y7.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x3.y7.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x3.y7.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x3.y8.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x3.y8.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x3.y8.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x3.y9.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x3.y9.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x3.y9.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(250px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x4.y1.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x4.y1.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x4.y1.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x4.y2.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x4.y2.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x4.y2.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x4.y3.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x4.y3.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x4.y3.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x4.y4.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x4.y4.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x4.y4.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x4.y5.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x4.y5.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x4.y5.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x4.y6.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x4.y6.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x4.y6.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x4.y7.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x4.y7.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x4.y7.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x4.y8.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x4.y8.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x4.y8.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x4.y9.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x4.y9.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x4.y9.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(-100px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x5.y1.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x5.y1.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x5.y1.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x5.y2.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x5.y2.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x5.y2.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x5.y3.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x5.y3.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x5.y3.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x5.y4.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x5.y4.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x5.y4.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x5.y5.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x5.y5.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x5.y5.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x5.y6.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x5.y6.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x5.y6.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x5.y7.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x5.y7.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x5.y7.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x5.y8.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x5.y8.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x5.y8.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x5.y9.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x5.y9.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x5.y9.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(0px, -50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x6.y1.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x6.y1.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x6.y1.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x6.y2.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 0px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x6.y2.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 0px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x6.y2.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 0px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x6.y3.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 100px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x6.y3.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 100px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x6.y3.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 100px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x6.y4.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x6.y4.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x6.y4.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 50px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x6.y5.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x6.y5.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x6.y5.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x6.y6.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x6.y6.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x6.y6.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, 250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x6.y7.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -250px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x6.y7.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -250px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x6.y7.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -250px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x6.y8.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -150px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x6.y8.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -150px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x6.y8.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -150px, 300px);
 }
-/* line 54, ../sass/myCube.sass */
+/* line 53, ../sass/myCube.sass */
 .r6.x6.y9.z1 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -50px, 0px);
 }
-/* line 56, ../sass/myCube.sass */
+/* line 55, ../sass/myCube.sass */
 .r6.x6.y9.z2 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -50px, 150px);
 }
-/* line 58, ../sass/myCube.sass */
+/* line 57, ../sass/myCube.sass */
 .r6.x6.y9.z3 {
   transform: rotateX(0deg) rotateY(90deg) translate3d(100px, -50px, 300px);
 }
