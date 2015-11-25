@@ -55,23 +55,15 @@ body
   // @include perspective( relative )
   // perspective: 10000px
 
-.test
-  width: $box-size * 1.5
-  @include transform-origin(right, top)
-  // transform: translateX(50px) translateY(0px) translateZ(50px)
-
-.test2
-  width: $box-size
-  margin-left: 100px
-  @include transform-origin(50%, 50%)
-
 .cube
   @include transform-style(preserve-3d)
   // position: absolute
-  border: 1px solid red
+  // border: 1px solid red
   // width: 100%
   // height: 100%
+  +locateCube
   figure
+    // z-index: -1 !important
     display: block
     position: absolute
     border: 4px solid black
