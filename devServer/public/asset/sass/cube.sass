@@ -19,11 +19,11 @@ $box-size: 50px
 
 @mixin locateCubeY($mX)
   &.y1
-    +locateCubeZ($mX, 0)
+    +locateCubeZ($mX, -75)
   &.y2
-    +locateCubeZ($mX, 50)
+    +locateCubeZ($mX, -25)
   &.y3
-    +locateCubeZ($mX, 100)
+    +locateCubeZ($mX, 25)
 
 @mixin locateCube
   &.x1

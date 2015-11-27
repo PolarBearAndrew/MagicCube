@@ -1,34 +1,20 @@
+
+var options = {
+  x: [ null, 0, 50, 100 ],
+  y: [ null, -75, -25, 25 ],
+  z: [ null, -50, 0, 50 ],
+};
+
+var data = initTransformData(options);
+
 $(document).ready(function(){
-
-
-  var data = [];
-  var translate= {
-    x: [ null, 0, 50, 100 ],
-    y: [ null, 0, 50, 100 ],
-    z: [ null, -50, 0, 50 ]
-  };
-
-  for( var x = 1; x <= 3; x++ ){
-    for( var y = 1; y <= 3; y++ ){
-      for( var z = 1; z <= 3; z++ ){
-        var cube = {};
-        cube.key = 'x' + x + 'y' + y + 'z' + z; //'x1y1z1'
-        cube.classsStr = '.x' + x + '.y' + y + '.z' + z; // '.x1.y1.z1'
-        cube.x = translate.x[x];
-        cube.y = translate.y[y];
-        cube.z = translate.z[z];
-        cube.rx = 0;
-        cube.ry = 0;
-        data.push(cube);
-      } // z end
-    } // y end
-  } // x end
 
   $('html, body').on('click', '.ctrl', function(){
 
     var layer = $(this).attr('data-layer');
-    var rx = $(this).attr('data-rx'); // rotateX
-    var ry = $(this).attr('data-ry'); // rotateY
+    var rx = $(this).attr('data-rx') || 0; // rotateX
+    var ry = $(this).attr('data-ry') || 0; // rotateY
+    var rz = $(this).attr('data-rz') || 0; // rotateY
 
     var targets = data.map(function(cube){
       data.indexOf(cube);
@@ -42,27 +28,51 @@ $(document).ready(function(){
     }).filter(function(cube){
       return cube;
     });
-    return doTransform(targets, rx, ry);
+    return doTransform(targets, rx, ry, rz);
   });
-
-  function doTransform(cubes, rx, ry){
-    rx = parseInt(rx);
-    ry = parseInt(ry);
-    cubes.forEach(function(cube){
-      var target = data[cube.key];
-      var transformStr = 'rotateX(@rxdeg) rotateY(@rydeg) translateX(@xpx) translateY(@ypx) translateZ(@zpx)';
-      target.rx = (target.rx + rx + 360 ) % 360;
-      target.ry = (target.ry + ry + 360 ) % 360;
-      transformStr = transformStr
-        .replace('@rx', target.rx)
-        .replace('@ry', target.ry)
-        .replace('@x', target.x)
-        .replace('@y', target.y)
-        .replace('@z', target.z);
-      $(cube.classsStr).css('transform', transformStr);
-    });
-    return false;
-  }
-
 });
 // doc ready end
+
+function doTransform(cubes, rx, ry, rz){
+  rx = parseInt(rx);
+  ry = parseInt(ry);
+  rz = parseInt(rz);
+  cubes.forEach(function(cube){
+    var target = data[cube.key];
+    var transformStr =
+      'rotateX(@rxdeg) rotateY(@rydeg) rotateZ(@rzdeg) ' +
+      'translateX(@xpx) translateY(@ypx) translateZ(@zpx)';
+    target.rx = (target.rx + rx + 360 ) % 360;
+    target.ry = (target.ry + ry + 360 ) % 360;
+    target.rz = (target.rz + rz + 360 ) % 360;
+    transformStr = transformStr
+      .replace('@rx', target.rx)
+      .replace('@ry', target.ry)
+      .replace('@rz', target.rz)
+      .replace('@x', target.x)
+      .replace('@y', target.y)
+      .replace('@z', target.z);
+    $(cube.classsStr).css('transform', transformStr);
+  });
+  return false;
+}
+
+function initTransformData(options){
+  var data = [];
+  for( var x = 1; x <= 3; x++ ){
+    for( var y = 1; y <= 3; y++ ){
+      for( var z = 1; z <= 3; z++ ){
+        var cube = {};
+        cube.key = 'x' + x + 'y' + y + 'z' + z; //'x1y1z1'
+        cube.classsStr = '.x' + x + '.y' + y + '.z' + z; // '.x1.y1.z1'
+        cube.x = options.x[x];
+        cube.y = options.y[y];
+        cube.z = options.z[z];
+        cube.rx = 0;
+        cube.ry = 0;
+        data.push(cube);
+      } // z end
+    } // y end
+  } // x end
+  return data;
+}

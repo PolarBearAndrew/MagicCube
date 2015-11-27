@@ -26,111 +26,111 @@ body {
 }
 /* line 13, ../sass/cube.sass */
 .cube.x1.y1.z1 {
-  transform: translateX(0px) translateY(0px) translateZ(-50px);
+  transform: translateX(0px) translateY(-75px) translateZ(-50px);
 }
 /* line 15, ../sass/cube.sass */
 .cube.x1.y1.z2 {
-  transform: translateX(0px) translateY(0px) translateZ(0px);
+  transform: translateX(0px) translateY(-75px) translateZ(0px);
 }
 /* line 17, ../sass/cube.sass */
 .cube.x1.y1.z3 {
-  transform: translateX(0px) translateY(0px) translateZ(50px);
+  transform: translateX(0px) translateY(-75px) translateZ(50px);
 }
 /* line 13, ../sass/cube.sass */
 .cube.x1.y2.z1 {
-  transform: translateX(0px) translateY(50px) translateZ(-50px);
+  transform: translateX(0px) translateY(-25px) translateZ(-50px);
 }
 /* line 15, ../sass/cube.sass */
 .cube.x1.y2.z2 {
-  transform: translateX(0px) translateY(50px) translateZ(0px);
+  transform: translateX(0px) translateY(-25px) translateZ(0px);
 }
 /* line 17, ../sass/cube.sass */
 .cube.x1.y2.z3 {
-  transform: translateX(0px) translateY(50px) translateZ(50px);
+  transform: translateX(0px) translateY(-25px) translateZ(50px);
 }
 /* line 13, ../sass/cube.sass */
 .cube.x1.y3.z1 {
-  transform: translateX(0px) translateY(100px) translateZ(-50px);
+  transform: translateX(0px) translateY(25px) translateZ(-50px);
 }
 /* line 15, ../sass/cube.sass */
 .cube.x1.y3.z2 {
-  transform: translateX(0px) translateY(100px) translateZ(0px);
+  transform: translateX(0px) translateY(25px) translateZ(0px);
 }
 /* line 17, ../sass/cube.sass */
 .cube.x1.y3.z3 {
-  transform: translateX(0px) translateY(100px) translateZ(50px);
+  transform: translateX(0px) translateY(25px) translateZ(50px);
 }
 /* line 13, ../sass/cube.sass */
 .cube.x2.y1.z1 {
-  transform: translateX(50px) translateY(0px) translateZ(-50px);
+  transform: translateX(50px) translateY(-75px) translateZ(-50px);
 }
 /* line 15, ../sass/cube.sass */
 .cube.x2.y1.z2 {
-  transform: translateX(50px) translateY(0px) translateZ(0px);
+  transform: translateX(50px) translateY(-75px) translateZ(0px);
 }
 /* line 17, ../sass/cube.sass */
 .cube.x2.y1.z3 {
-  transform: translateX(50px) translateY(0px) translateZ(50px);
+  transform: translateX(50px) translateY(-75px) translateZ(50px);
 }
 /* line 13, ../sass/cube.sass */
 .cube.x2.y2.z1 {
-  transform: translateX(50px) translateY(50px) translateZ(-50px);
+  transform: translateX(50px) translateY(-25px) translateZ(-50px);
 }
 /* line 15, ../sass/cube.sass */
 .cube.x2.y2.z2 {
-  transform: translateX(50px) translateY(50px) translateZ(0px);
+  transform: translateX(50px) translateY(-25px) translateZ(0px);
 }
 /* line 17, ../sass/cube.sass */
 .cube.x2.y2.z3 {
-  transform: translateX(50px) translateY(50px) translateZ(50px);
+  transform: translateX(50px) translateY(-25px) translateZ(50px);
 }
 /* line 13, ../sass/cube.sass */
 .cube.x2.y3.z1 {
-  transform: translateX(50px) translateY(100px) translateZ(-50px);
+  transform: translateX(50px) translateY(25px) translateZ(-50px);
 }
 /* line 15, ../sass/cube.sass */
 .cube.x2.y3.z2 {
-  transform: translateX(50px) translateY(100px) translateZ(0px);
+  transform: translateX(50px) translateY(25px) translateZ(0px);
 }
 /* line 17, ../sass/cube.sass */
 .cube.x2.y3.z3 {
-  transform: translateX(50px) translateY(100px) translateZ(50px);
+  transform: translateX(50px) translateY(25px) translateZ(50px);
 }
 /* line 13, ../sass/cube.sass */
 .cube.x3.y1.z1 {
-  transform: translateX(100px) translateY(0px) translateZ(-50px);
+  transform: translateX(100px) translateY(-75px) translateZ(-50px);
 }
 /* line 15, ../sass/cube.sass */
 .cube.x3.y1.z2 {
-  transform: translateX(100px) translateY(0px) translateZ(0px);
+  transform: translateX(100px) translateY(-75px) translateZ(0px);
 }
 /* line 17, ../sass/cube.sass */
 .cube.x3.y1.z3 {
-  transform: translateX(100px) translateY(0px) translateZ(50px);
+  transform: translateX(100px) translateY(-75px) translateZ(50px);
 }
 /* line 13, ../sass/cube.sass */
 .cube.x3.y2.z1 {
-  transform: translateX(100px) translateY(50px) translateZ(-50px);
+  transform: translateX(100px) translateY(-25px) translateZ(-50px);
 }
 /* line 15, ../sass/cube.sass */
 .cube.x3.y2.z2 {
-  transform: translateX(100px) translateY(50px) translateZ(0px);
+  transform: translateX(100px) translateY(-25px) translateZ(0px);
 }
 /* line 17, ../sass/cube.sass */
 .cube.x3.y2.z3 {
-  transform: translateX(100px) translateY(50px) translateZ(50px);
+  transform: translateX(100px) translateY(-25px) translateZ(50px);
 }
 /* line 13, ../sass/cube.sass */
 .cube.x3.y3.z1 {
-  transform: translateX(100px) translateY(100px) translateZ(-50px);
+  transform: translateX(100px) translateY(25px) translateZ(-50px);
 }
 /* line 15, ../sass/cube.sass */
 .cube.x3.y3.z2 {
-  transform: translateX(100px) translateY(100px) translateZ(0px);
+  transform: translateX(100px) translateY(25px) translateZ(0px);
 }
 /* line 17, ../sass/cube.sass */
 .cube.x3.y3.z3 {
-  transform: translateX(100px) translateY(100px) translateZ(50px);
+  transform: translateX(100px) translateY(25px) translateZ(50px);
 }
 /* line 64, ../sass/cube.sass */
 .cube figure {
