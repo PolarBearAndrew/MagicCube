@@ -6,55 +6,26 @@ html(lang='en')
     link(rel="stylesheet", href="./asset/stylesheets/cube.css")
     
   body
-    center
-      button#test y1向右轉
-    .container
+    - for( var x = 1; x <= 3; x++ )
+      button.ctrl(data-layer='x'+ x data-rx='90' data-ry='0')= 'x' + x + '向右轉'
+    - for( var y = 1; y <= 3; y++ )
+      button.ctrl(data-layer='y'+ y data-rx='0' data-ry='90')= 'y' + y + '向右轉'
+    br
+    br
+    br
+    .container(style='transform: rotateX(-30deg) rotateY(45deg)')
       - for( var x = 1; x <= 3; x++ )
         - for( var y = 1; y <= 3; y++ )
           - for( var z = 1; z <= 3; z++ )
             - var cubeClass = 'x' + x + ' y' + y + ' z' + z;
-              .cube(class=cubeClass)
-                figure.front
-                figure.back
-                figure.right
-                figure.left
-                figure.top
-                figure.bottom
-                
+            .cube(class=cubeClass)
+              figure.front
+              figure.back
+              figure.right
+              figure.left
+              figure.top
+              figure.bottom  
     // scirpts
     //- script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
     script(src='./asset/javascripts/jquery-2.1.3.min.js')
     script(src='./asset/javascripts/cube.js')
-    
-//- <!DOCTYPE html>
-//- html(lang="en")
-//- head
-//-   meta(charset="UTF-8")
-//-   title MagicCube
-//-   link(rel="stylesheet", href="./asset/stylesheets/cube.css")
-//-   script(src="./asset/javascripts/jquery-2.1.3.min.js")
-//-   
-//-   //- script(src="http://louisremi.github.io/jquery.transform.js/jquery.transform2d.js")
-//-   //- script(src="http://louisremi.github.io/jquery.transform.js/js/prettify.js")
-//-   //- script(src="./asset/javascripts/jquery.transform3d.js")
-//-   
-//-   script(src="./asset/javascripts/cube.js")
-//- body
-//-   //- .wrapper
-//-     //- - for( var x = 1; x <= 3; x++ )
-//-       //- - for( var y = 1; y <= 3; y++ )
-//-       //-   - for( var z = 1; z <= 3; z++ )
-//-       //-     - var cubeClass = 'x' + x + ' y' + y + ' z' + z;
-//-       //-     - var containerId = 'x' + x + 'y' + y + 'z' + z;
-//-     //- .container(id=containerId)
-//-   .container(id='x1y2z3').animate
-//-     .cube(class='x1 y2 z3')
-//-       figure.front
-//-       figure.back
-//-       figure.right
-//-       figure.left
-//-       figure.top
-//-       figure.bottom
-//- 
-//-   center
-//-     button test

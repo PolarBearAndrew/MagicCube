@@ -15,6 +15,7 @@ body {
   width: 150px;
   height: 150px;
   margin-left: -25px;
+  border: 1px solid red;
 }
 
 /* line 60, ../sass/cube.sass */
@@ -131,7 +132,7 @@ body {
 .cube.x3.y3.z3 {
   transform: translateX(100px) translateY(100px) translateZ(50px);
 }
-/* line 63, ../sass/cube.sass */
+/* line 64, ../sass/cube.sass */
 .cube figure {
   display: block;
   position: absolute;
@@ -141,50 +142,48 @@ body {
   height: 46px;
   margin: 0px;
 }
-/* line 71, ../sass/cube.sass */
+/* line 72, ../sass/cube.sass */
 .cube figure.front {
   transform: rotateX(0deg) rotateY(0deg) translateZ(25px);
   background-color: red;
 }
-/* line 74, ../sass/cube.sass */
+/* line 75, ../sass/cube.sass */
 .cube figure.right {
   transform: rotateX(0deg) rotateY(90deg) translateZ(25px);
   background-color: blue;
 }
-/* line 77, ../sass/cube.sass */
+/* line 78, ../sass/cube.sass */
 .cube figure.left {
   transform: rotateX(0deg) rotateY(-90deg) translateZ(25px);
   background-color: white;
 }
-/* line 80, ../sass/cube.sass */
+/* line 81, ../sass/cube.sass */
 .cube figure.back {
   transform: rotateX(180deg) rotateY(0deg) translateZ(25px);
   background-color: yellow;
 }
-/* line 83, ../sass/cube.sass */
+/* line 84, ../sass/cube.sass */
 .cube figure.top {
   transform: rotateX(90deg) rotateY(0deg) translateZ(25px);
   background-color: green;
 }
-/* line 86, ../sass/cube.sass */
+/* line 87, ../sass/cube.sass */
 .cube figure.bottom {
   transform: rotateX(-90deg) rotateY(0deg) translateZ(25px);
   background-color: #eb9f0c;
 }
 
-/* line 90, ../sass/cube.sass */
+/* line 91, ../sass/cube.sass */
 .animate {
   animation: rolling 3s infinite;
   animation-timing-function: linear;
 }
 
-/* line 94, ../sass/cube.sass */
-.y1 {
-  opacity: 0;
-}
-/* line 96, ../sass/cube.sass */
-.y1.x1.z3 {
-  opacity: 1;
+/* line 95, ../sass/cube.sass */
+.ctrl {
+  float: right;
+  clear: right;
+  margin-top: 4px;
 }
 
 @keyframes rolling {

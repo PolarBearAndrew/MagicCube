@@ -48,7 +48,7 @@ body
   width: $box-size * 3
   height: $box-size * 3
   margin-left: -$box-size / 2
-  // border: 1px solid white
+  border: 1px solid red
   // @include perspective( relative )
   // perspective: 10000px
 
@@ -59,6 +59,7 @@ body
   // height: 100%
 .cube
   @include transform-style(preserve-3d)
+  // transform-origin: 50% 100% 1px
   +locateCube
   figure
     display: block
@@ -91,10 +92,15 @@ body
   animation: rolling 3s infinite
   animation-timing-function: linear
 
-.y1
-  opacity: 0
-  &.x1.z3
-    opacity: 1
+.ctrl
+  float: right
+  clear: right
+  margin-top: 4px
+
+// .y1
+//   opacity: 0
+//   &.x1.z3
+//     opacity: 1
 
 @keyframes rolling
   from
