@@ -85,12 +85,12 @@ body
       +cubeFigure(-90, 0, 25)
       background-color: rgb(235, 159, 12)
 
-.animate
+.y1.animate
   animation: rolling 3s infinite
   animation-timing-function: linear
 
 @keyframes rolling
   from
-    transform: rotateY(360deg)
+    transform: rotateY(360deg) translateX(0px) translateY(0px) translateZ(-50px)
   to
-    transform: rotateY(0deg)
+    transform: rotateY(0deg)  translateX(0px) translateY(0px) translateZ(-50px)

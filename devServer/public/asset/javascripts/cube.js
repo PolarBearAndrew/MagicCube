@@ -1,12 +1,34 @@
-// $(document).ready(function(){
-//
-//   $('html, body').on('click', 'button', test);
-//
-//   function test(){
-//     $('#x1y2z3').animate({
-//       transform: 'rotate(-90deg)'
-//     });
-//     return false;
-//   } // test end
-// });
-// // doc ready end
+$(document).ready(function(){
+
+  var data = {
+    'x1y1z1': { x: 0, y: 0, z: -50, },
+    'x1y1z2': { x: 0, y: 0, z: 0, },
+    'x1y1z3': { x: 0, y: 0, z: 50, },
+    'x1y2z1': { x: 0, y: 50, z: -50, },
+    'x1y2z2': { x: 0, y: 50, z: 0, },
+    'x1y2z3': { x: 0, y: 50, z: 50, },
+    'x1y3z1': { x: 0, y: 100, z: -50, },
+    'x1y3z2': { x: 0, y: 100, z: 0, },
+    'x1y3z3': { x: 0, y: 100, z: 50, },
+    'x2y1z1': { x: 50, y: 0, z: -50, },
+    'x2y1z2': { x: 50, y: 0, z: 0, },
+    'x2y1z3': { x: 50, y: 0, z: 50, },
+    'x2y2z1': { x: 50, y: 50, z: -50, },
+    'x2y2z2': { x: 50, y: 50, z: 0, },
+    'x2y2z3': { x: 50, y: 50, z: 50, },
+    'x2y3z1': { x: 50, y: 100, z: -50, },
+    'x2y3z2': { x: 50, y: 100, z: 0, },
+    'x2y3z3': { x: 50, y: 100, z: 50, },
+    'x3y1z1': { x: 100, y: 0, z: -50, },
+    'x3y1z2': { x: 100, y: 0, z: 0, },
+    'x3y1z3': { x: 100, y: 0, z: 50, },
+    'x3y2z1': { x: 100, y: 50, z: -50, },
+    'x3y2z2': { x: 100, y: 50, z: 0, },
+    'x3y2z3': { x: 100, y: 50, z: 50, },
+    'x3y3z1': { x: 100, y: 100, z: -50, },
+    'x3y3z2': { x: 100, y: 100, z: 0, },
+    'x3y3z3': { x: 100, y: 100, z: 50, },
+  };
+
+});
+// doc ready end

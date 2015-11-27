@@ -6,12 +6,12 @@ html(lang='en')
     link(rel="stylesheet", href="./asset/stylesheets/cube.css")
     //- script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
   body
-    .container.test.animate
+    .container
       - for( var x = 1; x <= 3; x++ )
         - for( var y = 1; y <= 3; y++ )
           - for( var z = 1; z <= 3; z++ )
             - var cubeClass = 'x' + x + ' y' + y + ' z' + z;
-              .cube(class=cubeClass)
+              .cube(class=cubeClass).animate
                 figure.front
                 figure.back
                 figure.right
