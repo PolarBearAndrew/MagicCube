@@ -1,35 +1,28 @@
 $(document).ready(function(){
 
-  var data = [
-    { key: 'x1y1z1', classsStr: '.x1.y1.z1', x: 0, y: 0, z: -50, rx: 0, ry: 0 },
-    { key: 'x1y1z2', classsStr: '.x1.y1.z2', x: 0, y: 0, z: 0, rx: 0, ry: 0 },
-    { key: 'x1y1z3', classsStr: '.x1.y1.z3', x: 0, y: 0, z: 50, rx: 0, ry: 0 },
-    { key: 'x1y2z1', classsStr: '.x1.y2.z1', x: 0, y: 50, z: -50, rx: 0, ry: 0 },
-    { key: 'x1y2z2', classsStr: '.x1.y2.z2', x: 0, y: 50, z: 0, rx: 0, ry: 0 },
-    { key: 'x1y2z3', classsStr: '.x1.y2.z3', x: 0, y: 50, z: 50, rx: 0, ry: 0 },
-    { key: 'x1y3z1', classsStr: '.x1.y3.z1', x: 0, y: 100, z: -50, rx: 0, ry: 0 },
-    { key: 'x1y3z2', classsStr: '.x1.y3.z2', x: 0, y: 100, z: 0, rx: 0, ry: 0 },
-    { key: 'x1y3z3', classsStr: '.x1.y3.z3', x: 0, y: 100, z: 50, rx: 0, ry: 0 },
-    { key: 'x2y1z1', classsStr: '.x2.y1.z1', x: 50, y: 0, z: -50, rx: 0, ry: 0 },
-    { key: 'x2y1z2', classsStr: '.x2.y1.z2', x: 50, y: 0, z: 0, rx: 0, ry: 0 },
-    { key: 'x2y1z3', classsStr: '.x2.y1.z3', x: 50, y: 0, z: 50, rx: 0, ry: 0 },
-    { key: 'x2y2z1', classsStr: '.x2.y2.z1', x: 50, y: 50, z: -50, rx: 0, ry: 0 },
-    { key: 'x2y2z2', classsStr: '.x2.y2.z2', x: 50, y: 50, z: 0, rx: 0, ry: 0 },
-    { key: 'x2y2z3', classsStr: '.x2.y2.z3', x: 50, y: 50, z: 50, rx: 0, ry: 0 },
-    { key: 'x2y3z1', classsStr: '.x2.y3.z1', x: 50, y: 100, z: -50, rx: 0, ry: 0 },
-    { key: 'x2y3z2', classsStr: '.x2.y3.z2', x: 50, y: 100, z: 0, rx: 0, ry: 0 },
-    { key: 'x2y3z3', classsStr: '.x2.y3.z3', x: 50, y: 100, z: 50, rx: 0, ry: 0 },
-    { key: 'x3y1z1', classsStr: '.x3.y1.z1', x: 100, y: 0, z: -50, rx: 0, ry: 0 },
-    { key: 'x3y1z2', classsStr: '.x3.y1.z2', x: 100, y: 0, z: 0, rx: 0, ry: 0 },
-    { key: 'x3y1z3', classsStr: '.x3.y1.z3', x: 100, y: 0, z: 50, rx: 0, ry: 0 },
-    { key: 'x3y2z1', classsStr: '.x3.y2.z1', x: 100, y: 50, z: -50, rx: 0, ry: 0 },
-    { key: 'x3y2z2', classsStr: '.x3.y2.z2', x: 100, y: 50, z: 0, rx: 0, ry: 0 },
-    { key: 'x3y2z3', classsStr: '.x3.y2.z3', x: 100, y: 50, z: 50, rx: 0, ry: 0 },
-    { key: 'x3y3z1', classsStr: '.x3.y3.z1', x: 100, y: 100, z: -50, rx: 0, ry: 0 },
-    { key: 'x3y3z2', classsStr: '.x3.y3.z2', x: 100, y: 100, z: 0, rx: 0, ry: 0 },
-    { key: 'x3y3z3', classsStr: '.x3.y3.z3', x: 100, y: 100, z: 50, rx: 0, ry: 0 },
-  ];
 
+  var data = [];
+  var translate= {
+    x: [ null, 0, 50, 100 ],
+    y: [ null, 0, 50, 100 ],
+    z: [ null, -50, 0, 50 ]
+  };
+
+  for( var x = 1; x <= 3; x++ ){
+    for( var y = 1; y <= 3; y++ ){
+      for( var z = 1; z <= 3; z++ ){
+        var cube = {};
+        cube.key = 'x' + x + 'y' + y + 'z' + z; //'x1y1z1'
+        cube.classsStr = '.x' + x + '.y' + y + '.z' + z; // '.x1.y1.z1'
+        cube.x = translate.x[x];
+        cube.y = translate.y[y];
+        cube.z = translate.z[z];
+        cube.rx = 0;
+        cube.ry = 0;
+        data.push(cube);
+      } // z end
+    } // y end
+  } // x end
 
   $('html, body').on('click', '.ctrl', function(){
 
