@@ -1,11 +1,11 @@
-/* line 36, ../sass/cube.sass */
+/* line 35, ../sass/cube.sass */
 body {
   perspective: 1000px;
   background-color: #333;
   padding-top: 300px;
 }
 
-/* line 44, ../sass/cube.sass */
+/* line 43, ../sass/cube.sass */
 .container {
   -moz-transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
@@ -15,171 +15,170 @@ body {
   width: 150px;
   height: 150px;
   margin-left: -25px;
-  border: 1px solid red;
 }
 
-/* line 60, ../sass/cube.sass */
+/* line 54, ../sass/cube.sass */
 .cube {
   -moz-transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/* line 13, ../sass/cube.sass */
+/* line 12, ../sass/cube.sass */
 .cube.x1.y1.z1 {
   transform: translateX(0px) translateY(-75px) translateZ(-50px);
 }
-/* line 15, ../sass/cube.sass */
+/* line 14, ../sass/cube.sass */
 .cube.x1.y1.z2 {
   transform: translateX(0px) translateY(-75px) translateZ(0px);
 }
-/* line 17, ../sass/cube.sass */
+/* line 16, ../sass/cube.sass */
 .cube.x1.y1.z3 {
   transform: translateX(0px) translateY(-75px) translateZ(50px);
 }
-/* line 13, ../sass/cube.sass */
+/* line 12, ../sass/cube.sass */
 .cube.x1.y2.z1 {
   transform: translateX(0px) translateY(-25px) translateZ(-50px);
 }
-/* line 15, ../sass/cube.sass */
+/* line 14, ../sass/cube.sass */
 .cube.x1.y2.z2 {
   transform: translateX(0px) translateY(-25px) translateZ(0px);
 }
-/* line 17, ../sass/cube.sass */
+/* line 16, ../sass/cube.sass */
 .cube.x1.y2.z3 {
   transform: translateX(0px) translateY(-25px) translateZ(50px);
 }
-/* line 13, ../sass/cube.sass */
+/* line 12, ../sass/cube.sass */
 .cube.x1.y3.z1 {
   transform: translateX(0px) translateY(25px) translateZ(-50px);
 }
-/* line 15, ../sass/cube.sass */
+/* line 14, ../sass/cube.sass */
 .cube.x1.y3.z2 {
   transform: translateX(0px) translateY(25px) translateZ(0px);
 }
-/* line 17, ../sass/cube.sass */
+/* line 16, ../sass/cube.sass */
 .cube.x1.y3.z3 {
   transform: translateX(0px) translateY(25px) translateZ(50px);
 }
-/* line 13, ../sass/cube.sass */
+/* line 12, ../sass/cube.sass */
 .cube.x2.y1.z1 {
   transform: translateX(50px) translateY(-75px) translateZ(-50px);
 }
-/* line 15, ../sass/cube.sass */
+/* line 14, ../sass/cube.sass */
 .cube.x2.y1.z2 {
   transform: translateX(50px) translateY(-75px) translateZ(0px);
 }
-/* line 17, ../sass/cube.sass */
+/* line 16, ../sass/cube.sass */
 .cube.x2.y1.z3 {
   transform: translateX(50px) translateY(-75px) translateZ(50px);
 }
-/* line 13, ../sass/cube.sass */
+/* line 12, ../sass/cube.sass */
 .cube.x2.y2.z1 {
   transform: translateX(50px) translateY(-25px) translateZ(-50px);
 }
-/* line 15, ../sass/cube.sass */
+/* line 14, ../sass/cube.sass */
 .cube.x2.y2.z2 {
   transform: translateX(50px) translateY(-25px) translateZ(0px);
 }
-/* line 17, ../sass/cube.sass */
+/* line 16, ../sass/cube.sass */
 .cube.x2.y2.z3 {
   transform: translateX(50px) translateY(-25px) translateZ(50px);
 }
-/* line 13, ../sass/cube.sass */
+/* line 12, ../sass/cube.sass */
 .cube.x2.y3.z1 {
   transform: translateX(50px) translateY(25px) translateZ(-50px);
 }
-/* line 15, ../sass/cube.sass */
+/* line 14, ../sass/cube.sass */
 .cube.x2.y3.z2 {
   transform: translateX(50px) translateY(25px) translateZ(0px);
 }
-/* line 17, ../sass/cube.sass */
+/* line 16, ../sass/cube.sass */
 .cube.x2.y3.z3 {
   transform: translateX(50px) translateY(25px) translateZ(50px);
 }
-/* line 13, ../sass/cube.sass */
+/* line 12, ../sass/cube.sass */
 .cube.x3.y1.z1 {
   transform: translateX(100px) translateY(-75px) translateZ(-50px);
 }
-/* line 15, ../sass/cube.sass */
+/* line 14, ../sass/cube.sass */
 .cube.x3.y1.z2 {
   transform: translateX(100px) translateY(-75px) translateZ(0px);
 }
-/* line 17, ../sass/cube.sass */
+/* line 16, ../sass/cube.sass */
 .cube.x3.y1.z3 {
   transform: translateX(100px) translateY(-75px) translateZ(50px);
 }
-/* line 13, ../sass/cube.sass */
+/* line 12, ../sass/cube.sass */
 .cube.x3.y2.z1 {
   transform: translateX(100px) translateY(-25px) translateZ(-50px);
 }
-/* line 15, ../sass/cube.sass */
+/* line 14, ../sass/cube.sass */
 .cube.x3.y2.z2 {
   transform: translateX(100px) translateY(-25px) translateZ(0px);
 }
-/* line 17, ../sass/cube.sass */
+/* line 16, ../sass/cube.sass */
 .cube.x3.y2.z3 {
   transform: translateX(100px) translateY(-25px) translateZ(50px);
 }
-/* line 13, ../sass/cube.sass */
+/* line 12, ../sass/cube.sass */
 .cube.x3.y3.z1 {
   transform: translateX(100px) translateY(25px) translateZ(-50px);
 }
-/* line 15, ../sass/cube.sass */
+/* line 14, ../sass/cube.sass */
 .cube.x3.y3.z2 {
   transform: translateX(100px) translateY(25px) translateZ(0px);
 }
-/* line 17, ../sass/cube.sass */
+/* line 16, ../sass/cube.sass */
 .cube.x3.y3.z3 {
   transform: translateX(100px) translateY(25px) translateZ(50px);
 }
-/* line 64, ../sass/cube.sass */
+/* line 58, ../sass/cube.sass */
 .cube figure {
   display: block;
   position: absolute;
   border: 4px solid black;
-  border-radius: 2px;
+  border-radius: 6px;
   width: 46px;
   height: 46px;
   margin: 0px;
 }
-/* line 72, ../sass/cube.sass */
+/* line 66, ../sass/cube.sass */
 .cube figure.front {
   transform: rotateX(0deg) rotateY(0deg) translateZ(25px);
   background-color: red;
 }
-/* line 75, ../sass/cube.sass */
+/* line 69, ../sass/cube.sass */
 .cube figure.right {
   transform: rotateX(0deg) rotateY(90deg) translateZ(25px);
   background-color: blue;
 }
-/* line 78, ../sass/cube.sass */
+/* line 72, ../sass/cube.sass */
 .cube figure.left {
   transform: rotateX(0deg) rotateY(-90deg) translateZ(25px);
   background-color: white;
 }
-/* line 81, ../sass/cube.sass */
+/* line 75, ../sass/cube.sass */
 .cube figure.back {
   transform: rotateX(180deg) rotateY(0deg) translateZ(25px);
   background-color: yellow;
 }
-/* line 84, ../sass/cube.sass */
+/* line 78, ../sass/cube.sass */
 .cube figure.top {
   transform: rotateX(90deg) rotateY(0deg) translateZ(25px);
   background-color: green;
 }
-/* line 87, ../sass/cube.sass */
+/* line 81, ../sass/cube.sass */
 .cube figure.bottom {
   transform: rotateX(-90deg) rotateY(0deg) translateZ(25px);
   background-color: #eb9f0c;
 }
 
-/* line 91, ../sass/cube.sass */
+/* line 85, ../sass/cube.sass */
 .animate {
   animation: rolling 3s infinite;
   animation-timing-function: linear;
 }
 
-/* line 95, ../sass/cube.sass */
+/* line 89, ../sass/cube.sass */
 .ctrl {
   float: right;
   clear: right;

@@ -16,7 +16,7 @@ $(document).ready(function(){
     var ry = $(this).attr('data-ry') || 0; // rotateY
     var rz = $(this).attr('data-rz') || 0; // rotateY
 
-    var targets = data.map(function(cube){
+    var cubes = data.map(function(cube){
       data.indexOf(cube);
       if(cube.key.indexOf(layer) != -1){
         return {
@@ -28,7 +28,7 @@ $(document).ready(function(){
     }).filter(function(cube){
       return cube;
     });
-    return doTransform(targets, rx, ry, rz);
+    return doTransform(cubes, rx, ry, rz);
   });
 });
 // doc ready end
@@ -52,6 +52,7 @@ function doTransform(cubes, rx, ry, rz){
       .replace('@x', target.x)
       .replace('@y', target.y)
       .replace('@z', target.z);
+    console.log('test', transformStr);
     $(cube.classsStr).css('transform', transformStr);
   });
   return false;
@@ -70,6 +71,7 @@ function initTransformData(options){
         cube.z = options.z[z];
         cube.rx = 0;
         cube.ry = 0;
+        cube.rz = 0;
         data.push(cube);
       } // z end
     } // y end
