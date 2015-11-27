@@ -4,6 +4,8 @@
 
 $box-size: 50px
 
+
+// 定位
 @mixin cubeFigure($rX, $rY, $mZ)
   transform: rotateX($rX+deg) rotateY($rY+deg) translateZ($mZ+px)
 
@@ -85,9 +87,14 @@ body
       +cubeFigure(-90, 0, 25)
       background-color: rgb(235, 159, 12)
 
-.y1.animate
+.animate
   animation: rolling 3s infinite
   animation-timing-function: linear
+
+.y1
+  opacity: 0
+  &.x1.z3
+    opacity: 1
 
 @keyframes rolling
   from
