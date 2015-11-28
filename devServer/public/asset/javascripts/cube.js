@@ -5,6 +5,21 @@ var options = {
   z: [ -50, 0, 50 ],
 };
 
+var _MAPS = {
+  x: {
+    corner: ['x1', 'x3', '-x3', '-x1'],
+    side: ['x2', 'x3', '-x2', 'x1'],
+  },
+  y: {
+    corner: ['y1', 'y3', '-y3', '-y1'],
+    side: ['y2', 'y3', '-y2', 'y1'],
+  },
+  z: {
+    corner: ['z1', 'z3', '-z3', '-z1'],
+    side: ['z2', 'z3', '-z2', 'z1'],
+  },
+};
+
 var data = initTransformData(options);
 
 $(document).ready(function(){
@@ -18,10 +33,10 @@ $(document).ready(function(){
 
     var cubes = data.map(function(cube){
       data.indexOf(cube);
-      if(cube.key.indexOf(layer) != -1){
+      if(cube.index.indexOf(layer) != -1){
         return {
-          key: data.indexOf(cube),
-          classsStr: cube.classsStr,
+          index: data.indexOf(cube),
+          classStr: cube.classStr,
         };
       }
       return false;
@@ -36,22 +51,31 @@ function doTransform(cubes, rx, ry, rz){
   rx = parseInt(rx);
   ry = parseInt(ry);
   rz = parseInt(rz);
-  cubes.forEach(function(cube){
-    var target = data[cube.key];
+  cubes.forEach(function(info){
+    var cube = data[info.index];
+    cube.rx = (cube.rx + rx + 360 ) % 360;
+    cube.ry = (cube.ry + ry + 360 ) % 360;
+    cube.rz = (cube.rz + rz + 360 ) % 360;
+    // if( rx !== 0 )
+    //   cube.posiX = offsetPosi(info.classStr, 'x', cube.posiX, rx / 90);
+    // if( ry !== 0 )
+    //   cube.posiY = offsetPosi(info.classStr, 'y', cube.posiY, ry / 90);
+    // if( rz !== 0 )
+    //   cube.posiZ = offsetPosi(info.classStr, 'y', cube.posiZ, rz / 90);
+    // if(info.classStr == '.x1.y1.z1')
+    //   console.log('posi', info.classStr, cube.posiX, cube.posiY, cube.posiZ);
+    // transform
     var transformStr =
       'rotateX(@rxdeg) rotateY(@rydeg) rotateZ(@rzdeg) ' +
       'translateX(@xpx) translateY(@ypx) translateZ(@zpx)';
-    target.rx = (target.rx + rx + 360 ) % 360;
-    target.ry = (target.ry + ry + 360 ) % 360;
-    target.rz = (target.rz + rz + 360 ) % 360;
     transformStr = transformStr
-      .replace('@rx', target.rx)
-      .replace('@ry', target.ry)
-      .replace('@rz', target.rz)
-      .replace('@x', target.x)
-      .replace('@y', target.y)
-      .replace('@z', target.z);
-    $(cube.classsStr).css('transform', transformStr);
+      .replace('@rx', cube.rx)
+      .replace('@ry', cube.ry)
+      .replace('@rz', cube.rz)
+      .replace('@x', cube.x)
+      .replace('@y', cube.y)
+      .replace('@z', cube.z);
+    $(info.classStr).css('transform', transformStr);
   });
   return false;
 }
@@ -68,9 +92,12 @@ function initTransformData(options){
           rx: 0,
           ry: 0,
           rz: 0,
+          // posiX: calMapPosi('x', z, y),
+          // posiY: calMapPosi('y', x, z),
+          // posiZ: calMapPosi('z', x, y),
         };
-        cube.key = buildStr(xi, yi, zi)
-        cube.classsStr = buildStr(xi, yi, zi, '.')
+        cube.index = buildStr(xi, yi, zi)
+        cube.classStr = buildStr(xi, yi, zi, '.')
         data.push(cube);
       });
     });
@@ -84,3 +111,17 @@ function buildStr(xi, yi, zi, pre){
     pre + 'y' + ( yi + 1 ) +
     pre + 'z' + ( zi + 1 );
 }
+
+//calculate
+// function calMapPosi(layer, row, col){
+//   var posi = layer + row.toString();
+//   if(col == 3) posi = '-' + posi;
+//   return posi;
+// }
+//
+// function offsetPosi(cubeKey, rollingLayer, posi, offset){
+//   var type = cubeKey.indexOf('2') == -1 ? 'corner' : 'side';
+//   var arr = _MAPS[rollingLayer][type];
+//   var i = ( arr.indexOf(posi) + offset + 4 ) % 4;
+//   return arr[i];
+// }
