@@ -51,7 +51,6 @@ function doTransform(cubes, rx, ry, rz){
       .replace('@x', target.x)
       .replace('@y', target.y)
       .replace('@z', target.z);
-    console.log('test', transformStr);
     $(cube.classsStr).css('transform', transformStr);
   });
   return false;
@@ -70,17 +69,18 @@ function initTransformData(options){
           ry: 0,
           rz: 0,
         };
-        cube.key = //'x1y1z1'
-          'x' + ( xi + 1 ) +
-          'y' + ( yi + 1 ) +
-          'z' + ( zi + 1 );
-        cube.classsStr = // '.x1.y1.z1'
-          '.x' + ( xi + 1 ) +
-          '.y' + ( yi + 1 ) +
-          '.z' + ( zi + 1 );
+        cube.key = buildStr(xi, yi, zi)
+        cube.classsStr = buildStr(xi, yi, zi, '.')
         data.push(cube);
       });
     });
   });
   return data;
+}
+
+function buildStr(xi, yi, zi, pre){
+  pre = pre || '';
+  return pre + 'x' + ( xi + 1 ) +
+    pre + 'y' + ( yi + 1 ) +
+    pre + 'z' + ( zi + 1 );
 }
