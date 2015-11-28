@@ -1,8 +1,8 @@
 
 var options = {
-  x: [ null, 0, 50, 100 ],
-  y: [ null, -75, -25, 25 ],
-  z: [ null, -50, 0, 50 ],
+  x: [ 0, 50, 100 ],
+  y: [ -75, -25, 25 ],
+  z: [ -50, 0, 50 ],
 };
 
 var data = initTransformData(options);
@@ -29,9 +29,8 @@ $(document).ready(function(){
       return cube;
     });
     return doTransform(cubes, rx, ry, rz);
-  });
-});
-// doc ready end
+  }); // .ctrl[click] end
+}); // doc ready end
 
 function doTransform(cubes, rx, ry, rz){
   rx = parseInt(rx);
@@ -60,21 +59,28 @@ function doTransform(cubes, rx, ry, rz){
 
 function initTransformData(options){
   var data = [];
-  for( var x = 1; x <= 3; x++ ){
-    for( var y = 1; y <= 3; y++ ){
-      for( var z = 1; z <= 3; z++ ){
-        var cube = {};
-        cube.key = 'x' + x + 'y' + y + 'z' + z; //'x1y1z1'
-        cube.classsStr = '.x' + x + '.y' + y + '.z' + z; // '.x1.y1.z1'
-        cube.x = options.x[x];
-        cube.y = options.y[y];
-        cube.z = options.z[z];
-        cube.rx = 0;
-        cube.ry = 0;
-        cube.rz = 0;
+  options.x.forEach(function(x, xi){
+    options.y.forEach(function(y, yi){
+      options.z.forEach(function(z, zi){
+        var cube = {
+          x: x,
+          y: y,
+          z: z,
+          rx: 0,
+          ry: 0,
+          rz: 0,
+        };
+        cube.key = //'x1y1z1'
+          'x' + ( xi + 1 ) +
+          'y' + ( yi + 1 ) +
+          'z' + ( zi + 1 );
+        cube.classsStr = // '.x1.y1.z1'
+          '.x' + ( xi + 1 ) +
+          '.y' + ( yi + 1 ) +
+          '.z' + ( zi + 1 );
         data.push(cube);
-      } // z end
-    } // y end
-  } // x end
+      });
+    });
+  });
   return data;
 }
