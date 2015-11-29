@@ -6,17 +6,20 @@ var options = {
 };
 
 var _MAPS = {
-  x: {
-    corner: ['x1', 'x3', '-x3', '-x1'],
-    side: ['x2', 'x3', '-x2', 'x1'],
+  layerX: {
+    x: null,
+    y: ['y1', 'y1', 'y1', 'y2', 'y3', 'y3', 'y3', 'y2'],
+    z: ['z1', 'z2', 'z3', 'z3', 'z3', 'z2', 'z1', 'z1'],
   },
-  y: {
-    corner: ['y1', 'y3', '-y3', '-y1'],
-    side: ['y2', 'y3', '-y2', 'y1'],
+  layerY: {
+    x: ['x1', 'x2', 'x3', 'x3', 'x3', 'x2', 'x1', 'x1'],
+    y: null,
+    z: ['z1', 'z1', 'z1', 'z2', 'z3', 'z3', 'z3', 'z2'],
   },
-  z: {
-    corner: ['z1', 'z3', '-z3', '-z1'],
-    side: ['z2', 'z3', '-z2', 'z1'],
+  layerZ: {
+    x: ['x1', 'x2', 'x3', 'x3', 'x3', 'x2', 'x1', 'x1'],
+    y: ['y1', 'y1', 'y1', 'y2', 'y3', 'y3', 'y3', 'y2'],
+    z: null,
   },
 };
 
@@ -56,15 +59,6 @@ function doTransform(cubes, rx, ry, rz){
     cube.rx = (cube.rx + rx + 360 ) % 360;
     cube.ry = (cube.ry + ry + 360 ) % 360;
     cube.rz = (cube.rz + rz + 360 ) % 360;
-    // if( rx !== 0 )
-    //   cube.posiX = offsetPosi(info.classStr, 'x', cube.posiX, rx / 90);
-    // if( ry !== 0 )
-    //   cube.posiY = offsetPosi(info.classStr, 'y', cube.posiY, ry / 90);
-    // if( rz !== 0 )
-    //   cube.posiZ = offsetPosi(info.classStr, 'y', cube.posiZ, rz / 90);
-    // if(info.classStr == '.x1.y1.z1')
-    //   console.log('posi', info.classStr, cube.posiX, cube.posiY, cube.posiZ);
-    // transform
     var transformStr =
       'rotateX(@rxdeg) rotateY(@rydeg) rotateZ(@rzdeg) ' +
       'translateX(@xpx) translateY(@ypx) translateZ(@zpx)';
@@ -111,17 +105,3 @@ function buildStr(xi, yi, zi, pre){
     pre + 'y' + ( yi + 1 ) +
     pre + 'z' + ( zi + 1 );
 }
-
-//calculate
-// function calMapPosi(layer, row, col){
-//   var posi = layer + row.toString();
-//   if(col == 3) posi = '-' + posi;
-//   return posi;
-// }
-//
-// function offsetPosi(cubeKey, rollingLayer, posi, offset){
-//   var type = cubeKey.indexOf('2') == -1 ? 'corner' : 'side';
-//   var arr = _MAPS[rollingLayer][type];
-//   var i = ( arr.indexOf(posi) + offset + 4 ) % 4;
-//   return arr[i];
-// }
