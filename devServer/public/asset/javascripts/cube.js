@@ -5,56 +5,9 @@ var options = {
   z: [ -50, 0, 50 ],
 };
 
-// var _MAPS = {
-//   layerX: {
-//     x: null,
-//     y: {
-//       corner: ['y1', '-y1', 'y3', '-y3'],
-//       side: ['y1', 'y2', 'y3', '-y2'],
-//     },
-//     z: {
-//       corner: ['z1', 'z3', '-z3', '-z1'],
-//       side: ['z2', 'z3', '-z2', 'z1'],
-//     },
-//   },
-//   layerY: {
-//     x: {
-//       corner: ['x1', 'x3', '-x3', '-x1'],
-//       side: ['x2', 'x3', '-x2', 'x1'],
-//     },
-//     y: null,
-//     z: {
-//       corner: ['z1', '-z1', 'z3', '-z3'],
-//       side: ['z1', 'z2', 'z3', '-z2'],
-//     },
-//   },
-//   layerZ: {
-//     x: {
-//       corner: ['x1', 'x3', '-x3', '-x1'],
-//       side: ['x2', 'x3', '-x2', 'x1'],
-//     },
-//     y: {
-//       corner: ['y1', '-y1', 'y3', '-y3'],
-//       side: ['y1', 'y2', 'y3', '-y2'],
-//     },
-//     z: null,
-//   },
-// };
+var _MAPS = [
 
-var _MAPS = {
-  x: {
-    corner: ['x1', 'x3', '-x3', '-x1'],
-    side: ['x2', 'x3', '-x2', 'x1'],
-  },
-  y: {
-    corner: ['y1', '-y1', 'y3', '-y3'],
-    side: ['y1', 'y2', 'y3', '-y2'],
-  },
-  z: {
-    corner: ['z1', '-z1', 'z3', '-z3'],
-    side: ['z1', 'z2', 'z3', '-z2'],
-  },
-};
+];
 
 var data = initTransformData(options);
 
@@ -119,13 +72,13 @@ function initTransformData(options){
           rx: 0,
           ry: 0,
           rz: 0,
-          // posiX: calMapPosi('x', z, y),
-          // posiY: calMapPosi('y', x, z),
-          // posiZ: calMapPosi('z', x, y),
         };
         cube.index = buildStr(xi, yi, zi)
         cube.classStr = buildStr(xi, yi, zi, '.')
         data.push(cube);
+        if( xi == 0 && yi == 0 && zi == 2 ){
+          console.log(cube);
+        }
       });
     });
   });
@@ -134,7 +87,9 @@ function initTransformData(options){
 
 function buildStr(xi, yi, zi, pre){
   pre = pre || '';
-  return pre + 'x' + ( xi + 1 ) +
+  return (
+    pre + 'x' + ( xi + 1 ) +
     pre + 'y' + ( yi + 1 ) +
-    pre + 'z' + ( zi + 1 );
+    pre + 'z' + ( zi + 1 )
+  );
 }
