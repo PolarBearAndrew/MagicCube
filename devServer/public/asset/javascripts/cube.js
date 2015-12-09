@@ -36,7 +36,7 @@ $(document).ready(function(){
       if(targets.indexOf(cube.classStr) != -1){
         return {
           index: data.indexOf(cube),
-          classStr: cube.classStr, // TODO: 有空要換成id
+          classStr: cube.classStr,
         };
       }
       return false;
@@ -55,9 +55,58 @@ function doTransform(cubes, rx, ry, rz){
   rz = parseInt(rz);
   cubes.forEach(function(info){
     var cube = data[info.index];
-    cube.rx = (cube.rx + rx + 360 ) % 360;
-    cube.ry = (cube.ry + ry + 360 ) % 360;
-    cube.rz = (cube.rz + rz + 360 ) % 360;
+
+    // if(ry != 0){
+    //   var num = ry; // +90
+    //
+    //   if(cube.rx == 0){
+    //     cube.ry = (cube.ry + num + 360 ) % 360;
+    //   }else if(cube.rx == 90){
+    //     cube.rz = (cube.rz - num + 360 ) % 360;
+    //   }else if(cube.rx == 180){
+    //     cube.ry = (cube.ry - num + 360 ) % 360;
+    //   }else if(cube.rx == 270){
+    //     cube.rz = (cube.rz + num + 360 ) % 360;
+    //
+    //   }else if(cube.rz == 0){
+    //     cube.ry = (cube.ry + num + 360 ) % 360;
+    //   }else if(cube.rz == 90){
+    //     cube.ry = (cube.ry + num + 360 ) % 360;
+    //   }else if(cube.rz == 180){
+    //     cube.ry = (cube.ry - num + 360 ) % 360;
+    //   }else if(cube.rz == 270){
+    //     cube.rz = (cube.rz - num + 360 ) % 360;
+    //   }
+    // }
+
+    var tmp =  _.cloneDeep(cube.directions);
+    if(rx != 0){
+      tmp.y = cube.directions.uz;
+      tmp.uy = cube.directions.z;
+      tmp.z = cube.directions.y;
+      tmp.uz = cube.directions.uy;
+    }else if(ry != 0){
+      tmp.x = cube.directions.z;
+      tmp.ux = cube.directions.uz;
+      tmp.z = cube.directions.ux;
+      tmp.uz = cube.directions.x;
+    }else if(rz != 0){
+      tmp.x = cube.directions.uy;
+      tmp.ux = cube.directions.y;
+      tmp.y = cube.directions.x;
+      tmp.uy = cube.directions.ux;
+    }else{
+      console.log('error 無任何xyz翻轉角度');
+    }
+    cube.directions = _.cloneDeep(tmp);
+
+    //
+    // else{
+      cube.rx = (cube.rx + rx + 360 ) % 360;
+      cube.ry = (cube.ry + ry + 360 ) % 360;
+      cube.rz = (cube.rz + rz + 360 ) % 360;
+    // }
+
     var transformStr =
       'rotateX(@rxdeg) rotateY(@rydeg) rotateZ(@rzdeg) ' +
       'translateX(@xpx) translateY(@ypx) translateZ(@zpx)';
@@ -85,6 +134,26 @@ function offsetCube(layer){
     tmp[layer]['y3']['z1'] = _MAPS[layer]['y1']['z1'];
     tmp[layer]['y3']['z2'] = _MAPS[layer]['y2']['z1'];
     tmp[layer]['y3']['z3'] = _MAPS[layer]['y3']['z1'];
+  }else if(layer.indexOf('y') != -1){
+    tmp['x1'][layer]['z1'] = _MAPS['x3'][layer]['z1'];
+    tmp['x1'][layer]['z2'] = _MAPS['x2'][layer]['z1'];
+    tmp['x1'][layer]['z3'] = _MAPS['x1'][layer]['z1'];
+    tmp['x2'][layer]['z1'] = _MAPS['x3'][layer]['z2'];
+    // tmp['x2'][layer]['z2'] = _MAPS['x2'][layer]['z2']; //center
+    tmp['x2'][layer]['z3'] = _MAPS['x1'][layer]['z2'];
+    tmp['x3'][layer]['z1'] = _MAPS['x3'][layer]['z3'];
+    tmp['x3'][layer]['z2'] = _MAPS['x2'][layer]['z3'];
+    tmp['x3'][layer]['z3'] = _MAPS['x1'][layer]['z3'];
+  }else if(layer.indexOf('z') != -1){
+    tmp['x1']['y1'][layer] = _MAPS['x1']['y3'][layer];
+    tmp['x1']['y2'][layer] = _MAPS['x2']['y3'][layer];
+    tmp['x1']['y3'][layer] = _MAPS['x3']['y3'][layer];
+    tmp['x2']['y1'][layer] = _MAPS['x1']['y2'][layer];
+    // tmp['x2']['y2'][layer] = _MAPS['x2']['y2'][layer]; //center
+    tmp['x2']['y3'][layer] = _MAPS['x3']['y2'][layer];
+    tmp['x3']['y1'][layer] = _MAPS['x1']['y1'][layer];
+    tmp['x3']['y2'][layer] = _MAPS['x2']['y1'][layer];
+    tmp['x3']['y3'][layer] = _MAPS['x3']['y1'][layer];
   }
   _MAPS = _.cloneDeep(tmp);
   return false;
@@ -118,6 +187,14 @@ function initTransformData(options){
           xi : xi,
           yi : yi,
           zi : zi,
+          directions: {
+            x: 'x',
+            ux: '-x',
+            y: 'y',
+            uy: '-y',
+            z: 'z',
+            uz: '-z',
+          }
         };
         cube.index = buildStr(xi, yi, zi);
         cube.classStr = buildStr(xi, yi, zi, '.');
