@@ -21,12 +21,12 @@ html(lang='en')
           - for( var z = 1; z <= 3; z++ )
             - var cubeClass = 'x' + x + ' y' + y + ' z' + z;
             .cube(class=cubeClass data-posi=)
-              figure.front= cubeClass
-              figure.back= cubeClass
-              figure.right= cubeClass
-              figure.left= cubeClass
-              figure.top= cubeClass
-              figure.bottom= cubeClass
+              figure.front
+              figure.back
+              figure.right
+              figure.left
+              figure.top
+              figure.bottom
     // scirpts
     //- script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js')
