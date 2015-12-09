@@ -28,7 +28,7 @@ $(document).ready(function(){
         });
       });
     });
-    console.log('targets', targets, _MAPS['x1']);
+    // console.log('targets', targets, _MAPS['x1']);
 
     var cubes = data.map(function(cube){
       data.indexOf(cube);
@@ -54,59 +54,19 @@ function doTransform(cubes, rx, ry, rz){
   ry = parseInt(ry);
   rz = parseInt(rz);
   cubes.forEach(function(info){
+    var ctrl = { x : 1, y : 1, z : 1, };
     var cube = data[info.index];
-
-    // if(ry != 0){
-    //   var num = ry; // +90
-    //
-    //   if(cube.rx == 0){
-    //     cube.ry = (cube.ry + num + 360 ) % 360;
-    //   }else if(cube.rx == 90){
-    //     cube.rz = (cube.rz - num + 360 ) % 360;
-    //   }else if(cube.rx == 180){
-    //     cube.ry = (cube.ry - num + 360 ) % 360;
-    //   }else if(cube.rx == 270){
-    //     cube.rz = (cube.rz + num + 360 ) % 360;
-    //
-    //   }else if(cube.rz == 0){
-    //     cube.ry = (cube.ry + num + 360 ) % 360;
-    //   }else if(cube.rz == 90){
-    //     cube.ry = (cube.ry + num + 360 ) % 360;
-    //   }else if(cube.rz == 180){
-    //     cube.ry = (cube.ry - num + 360 ) % 360;
-    //   }else if(cube.rz == 270){
-    //     cube.rz = (cube.rz - num + 360 ) % 360;
-    //   }
-    // }
-
-    var tmp =  _.cloneDeep(cube.directions);
-    if(rx != 0){
-      tmp.y = cube.directions.uz;
-      tmp.uy = cube.directions.z;
-      tmp.z = cube.directions.y;
-      tmp.uz = cube.directions.uy;
-    }else if(ry != 0){
-      tmp.x = cube.directions.z;
-      tmp.ux = cube.directions.uz;
-      tmp.z = cube.directions.ux;
-      tmp.uz = cube.directions.x;
-    }else if(rz != 0){
-      tmp.x = cube.directions.uy;
-      tmp.ux = cube.directions.y;
-      tmp.y = cube.directions.x;
-      tmp.uy = cube.directions.ux;
-    }else{
-      console.log('error 無任何xyz翻轉角度');
-    }
-    cube.directions = _.cloneDeep(tmp);
-
-    //
-    // else{
-      cube.rx = (cube.rx + rx + 360 ) % 360;
-      cube.ry = (cube.ry + ry + 360 ) % 360;
-      cube.rz = (cube.rz + rz + 360 ) % 360;
-    // }
-
+    var key = {
+      x : 'r' + cube.directions.x.replace(/-/, ''),
+      y : 'r' + cube.directions.y.replace(/-/, ''),
+      z : 'r' + cube.directions.z.replace(/-/, ''),
+    };
+    if(cube.directions.x.indexOf('-') != -1) ctrl.x = -1;
+    if(cube.directions.y.indexOf('-') != -1) ctrl.y = -1;
+    if(cube.directions.z.indexOf('-') != -1) ctrl.z = -1;
+    cube[key.x] = ( cube[key.x] + ( rx * ctrl.x ) + 360 ) % 360;
+    cube[key.y] = ( cube[key.y] + ( ry * ctrl.y ) + 360 ) % 360;
+    cube[key.z] = ( cube[key.z] + ( rz * ctrl.z ) + 360 ) % 360;
     var transformStr =
       'rotateX(@rxdeg) rotateY(@rydeg) rotateZ(@rzdeg) ' +
       'translateX(@xpx) translateY(@ypx) translateZ(@zpx)';
@@ -118,6 +78,33 @@ function doTransform(cubes, rx, ry, rz){
       .replace('@y', cube.y)
       .replace('@z', cube.z);
     $(info.classStr).css('transform', transformStr);
+    // cube.directions = gyroscope(cube.directions, rx, ry, rz); //陀螺儀校正
+
+    var tmp =  _.cloneDeep(cube.directions);
+    if(rx != 0){
+      tmp.y = cube.directions.uz;
+      tmp.uy = cube.directions.z;
+      tmp.z = cube.directions.uy;
+      tmp.uz = cube.directions.y;
+    }else if(ry != 0){
+      tmp.x = cube.directions.z;
+      tmp.ux = cube.directions.uz;
+      tmp.z = cube.directions.ux;
+      tmp.uz = cube.directions.x;
+    }else if(rz != 0){
+      // tmp.x = cube.directions.uy;
+      // tmp.ux = cube.directions.y;
+      // tmp.y = cube.directions.x;
+      // tmp.uy = cube.directions.ux;
+    }else{
+      console.log('error 無任何xyz翻轉角度');
+    }
+    cube.directions = _.cloneDeep(tmp);
+
+    if(cube.classStr == '.x1.y2.z3'){
+      console.log('陀螺儀資訊', key);
+      console.log('new 陀螺儀資訊', cube.directions);
+    }
   });
   return false;
 }
@@ -154,10 +141,18 @@ function offsetCube(layer){
     tmp['x3']['y1'][layer] = _MAPS['x1']['y1'][layer];
     tmp['x3']['y2'][layer] = _MAPS['x2']['y1'][layer];
     tmp['x3']['y3'][layer] = _MAPS['x3']['y1'][layer];
+  }else{
+    console.log('error 無offset轉換');
   }
   _MAPS = _.cloneDeep(tmp);
   return false;
 }
+
+// function gyroscope(directions, rx, ry, rz){
+//
+//
+//   return _.cloneDeep(tmp);
+// }
 
 function initTransformData(options){
   var data = [];
